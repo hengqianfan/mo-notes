@@ -8,8 +8,8 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: vitepress
+      link: /programming/vitepress/01 可跳过的题外话.md
     - theme: alt
       text: API Examples
       link: /api-examples
