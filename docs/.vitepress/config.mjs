@@ -5,6 +5,9 @@ export default defineConfig({
   lang: 'cn',
   title: "mo-notes",
   description: "A VitePress Site",
+  // gitee 打包
+  // base: '/mo_notes/',
+  // github 打包
   base: '/mo-notes/',
 
   // srcDir: 'docs',
@@ -86,7 +89,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/hengqianfang' }
     ],
 
     returnToTopLabel: '回到顶部'
