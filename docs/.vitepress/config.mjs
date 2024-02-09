@@ -8,7 +8,9 @@ export default defineConfig({
   // gitee 打包
   // base: '/mo_notes/',
   // github 打包
-  base: '/mo-notes/',
+  // base: '/mo-notes/',
+  base: '/',
+
 
   // srcDir: 'docs',
   // lastUpdated: true,
