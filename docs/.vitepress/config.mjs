@@ -34,6 +34,7 @@ export default defineConfig({
           { text: 'Node.js', link: '/repo/programming/nodejs/nodejs' },
           { text: 'Vue', link: '/repo/programming/vue/00 简述' },
           { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
+          { text: 'Electron', link: '/repo/programming/electron/00 简述' },
           { text: 'Docker', link: '/repo/programming/docker/docker' },
 
 
@@ -57,6 +58,10 @@ export default defineConfig({
       '/repo/programming/javascript': set_sidebar('/repo/programming/javascript'),
       '/repo/programming/nodejs': set_sidebar('/repo/programming/nodejs'),
       '/repo/programming/vue': set_sidebar('/repo/programming/vue'),
+      '/repo/programming/electron': set_sidebar('/repo/programming/electron'),
+
+
+
       '/repo/vitepress': set_sidebar('/repo/vitepress'),
 
       '/repo/computerKnowledge': set_sidebar('/repo/computerKnowledge', false),

@@ -10,6 +10,8 @@
 
 - 通过全局组件来代替img标签
 
+- 了解https://www.cloudflare.com/zh-cn/
+
 :::
 
 
