@@ -33,6 +33,9 @@ export default defineConfig({
           { text: 'JavaScript', link: '/repo/programming/javascript/01 基础部分/01 简述' },
           { text: 'Node.js', link: '/repo/programming/nodejs/nodejs' },
           { text: 'Vue', link: '/repo/programming/vue/00 简述' },
+
+          { text: 'MySQL', link: '/repo/programming/mysql/00 简述' },
+
           { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
           { text: 'Electron', link: '/repo/programming/electron/00 简述' },
           { text: 'Docker', link: '/repo/programming/docker/docker' },
