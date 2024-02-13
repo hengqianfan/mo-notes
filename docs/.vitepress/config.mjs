@@ -5,7 +5,7 @@ import { pre_create } from './my_script/create_sidebar'
 
 export default defineConfig({
   lang: 'cn',
-  title: "mo-notes",
+  title: "魔笔记",
   description: "A VitePress Site",
   // gitee 打包
   // base: '/mo_notes/',
@@ -16,6 +16,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
+    siteTitle: 'mo-notes',
     logo: '/icon/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
