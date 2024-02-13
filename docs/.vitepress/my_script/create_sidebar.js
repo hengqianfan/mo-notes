@@ -47,6 +47,8 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
 
     const files_effective = is_effective(files_all, ignore_list)
 
+    const new_level = 0
+
     /**
      * 
      * @param {文件夹中的项目们} items 
@@ -55,8 +57,10 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
      * @param {折叠的层级} folder_level 
      * @returns 
      */
-    const create_list = (items, repo_path, dir_unprocessed, folder_level) => {
+    const create_list = (items, repo_path, dir_unprocessed, folder_level, now_level) => {
         const final_list = []
+
+
         for (let i = 0; i < items.length; i++) {
             const item = items[i]
             const item_path = path.join(repo_path, item)
@@ -69,11 +73,30 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
 
                 let new_floder = `${dir_unprocessed}/${item}`
 
+                if (!now_level) {
+                    now_level = 1
+                }
+
+                let next_level = now_level + 1
+
+
+                let collapsed_state = Boolean
+
+                if (now_level > folder_level) {
+                    collapsed_state = true
+                } else {
+                    collapsed_state = false
+                }
+
+
+
                 final_list.push({
                     text: dir_name_processed,
-                    collapsed: true,
-                    items: create_list(new_items, item_path, new_floder),
+                    collapsed: collapsed_state,
+                    items: create_list(new_items, item_path, new_floder, folder_level, next_level),
                 })
+
+
             } else {
                 const file_name = path.basename(item_path)
                 const file_ext = path.extname(item_path)
@@ -92,14 +115,14 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
                     link: `${dir_unprocessed}/${file_name}`
                 })
 
-                // console.log(final_list);
+
             }
         }
         return final_list
 
     }
 
-    return create_list(files_effective, dir_path, dir_unprocessed)
+    return create_list(files_effective, dir_path, dir_unprocessed, folder_level, new_level)
 
 
 

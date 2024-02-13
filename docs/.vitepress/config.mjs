@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { create_sidebar, pre_create } from './my_script/create_sidebar'
+import { pre_create } from './my_script/create_sidebar'
 
 
 
@@ -59,10 +59,35 @@ export default defineConfig({
 
 
     ],
+
     sidebar: pre_create([
       ['/repo/buildSite', 1],
-      ['/repo/programming/react', 1]
+
+      ['/repo/programming/html', 1],
+      ['/repo/programming/css', 1],
+      ['/repo/programming/javascript', 1],
+      ['/repo/programming/nodejs', 1],
+
+      ['/repo/programming/react', 1],
+      ['/repo/programming/vue', 1],
+
+      ['/repo/programming/mysql', 1],
+
+
+      ['/repo/programming/electron', 1],
+      ['/repo/programming/uniapp', 1],
+
+      ['/repo/programming/docker', 1],
+
+      ['/repo/vitepress', 1],
+      ['/repo/github', 1],
+      ['/repo/vscode', 1],
+
+
+
+
     ]),
+
     // outline: [1, 6],
     outline: {
       label: "目录",
