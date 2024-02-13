@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
-import { set_sidebar } from './autosidebar'
+import { create_sidebar, pre_create } from './my_script/create_sidebar'
+
+
 
 export default defineConfig({
   lang: 'cn',
@@ -32,6 +34,8 @@ export default defineConfig({
           { text: 'CSS', link: '/repo/programming/css/01 基础知识/00 简述' },
           { text: 'JavaScript', link: '/repo/programming/javascript/01 基础部分/01 简述' },
           { text: 'Node.js', link: '/repo/programming/nodejs/nodejs' },
+
+          { text: 'React', link: '/repo/programming/react/00 简述' },
           { text: 'Vue', link: '/repo/programming/vue/00 简述' },
 
           { text: 'MySQL', link: '/repo/programming/mysql/00 简述' },
@@ -55,32 +59,10 @@ export default defineConfig({
 
 
     ],
-    sidebar: {
-      '/repo/programming/html': set_sidebar('/repo/programming/html'),
-      '/repo/programming/css': set_sidebar('/repo/programming/css'),
-      '/repo/programming/javascript': set_sidebar('/repo/programming/javascript'),
-      '/repo/programming/nodejs': set_sidebar('/repo/programming/nodejs'),
-      '/repo/programming/vue': set_sidebar('/repo/programming/vue'),
-      '/repo/programming/electron': set_sidebar('/repo/programming/electron'),
-
-
-
-      '/repo/vitepress': set_sidebar('/repo/vitepress'),
-
-      '/repo/computerKnowledge': set_sidebar('/repo/computerKnowledge', false),
-      '/repo/computerKnowledge/03 扩展知识/02 虚拟机': set_sidebar('/repo/computerKnowledge/03 扩展知识/02 虚拟机'),
-
-      '/repo/buildSite': set_sidebar('/repo/buildSite'),
-
-      '/repo/vscode': set_sidebar('/repo/vscode'),
-      '/repo/github': set_sidebar('/repo/github'),
-
-
-
-
-
-
-    },
+    sidebar: pre_create([
+      ['/repo/buildSite', 1],
+      ['/repo/programming/react', 1]
+    ]),
     // outline: [1, 6],
     outline: {
       label: "目录",
