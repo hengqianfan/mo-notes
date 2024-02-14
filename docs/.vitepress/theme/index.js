@@ -3,6 +3,8 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import moImg from './mo-img.vue'
+import moNone from './mo-none.vue'
+
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -14,5 +16,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('moImg', moImg)
+    app.component('moNone', moNone)
+
   }
 }
