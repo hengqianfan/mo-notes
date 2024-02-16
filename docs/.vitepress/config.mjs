@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
+import markdownItFootnote from 'markdown-it-footnote'
 import { pre_create } from './my_script/create_sidebar'
+
 
 
 
@@ -115,10 +117,10 @@ export default defineConfig({
     returnToTopLabel: '回到顶部'
   },
 
-  // markdown: {
-  //   config: (md) => {
-  //     md.use(tool_video)
-  //   }
-  // }
+  markdown: {
+    config: (md) => {
+      md.use(markdownItFootnote)
+    }
+  }
 
 })
