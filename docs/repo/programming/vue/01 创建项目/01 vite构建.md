@@ -1,5 +1,6 @@
 ::: danger  <Badge type='info'>警示</Badge>
-请先安装node
+请先安装node！！！
+[enter](/repo/programming/nodejs/01%20前置准备/01%20安装.md){target='_blank'}
 :::
 
 ## 开始创建

@@ -43,7 +43,7 @@ export default defineConfig({
           },
           {
             text: '进阶知识', items: [
-              { text: 'Node.js', link: '/repo/programming/nodejs/00 简述' },
+              { text: 'Node.js', link: '/repo/programming/nodejs/01 前置准备/00 简述' },
               { text: 'TypeScript', link: '/repo/programming/typescript/01 基础内容/01 介绍与安装' },
               { text: 'React', link: '/repo/programming/react/00 简述' },
               { text: 'Vue', link: '/repo/programming/vue/00 简述' },
