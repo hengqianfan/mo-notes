@@ -6,3 +6,6 @@ import {ParentComponent} from './components/ParentComponent.vue';
 
 import ParentComponent from './components/ParentComponent.vue';
 
+## 
+
+> 找不到文件“@vue/tsconfig/tsconfig.dom.json”

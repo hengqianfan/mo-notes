@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import markdownItFootnote from 'markdown-it-footnote'
+import markdownItTaskLists from 'markdown-it-task-lists'
 import { pre_create } from './my_script/create_sidebar'
 
 
@@ -33,19 +34,31 @@ export default defineConfig({
 
       {
         text: "编程笔记 📚", items: [
-          { text: 'HTML', link: '/repo/programming/html/00 前置准备' },
-          { text: 'CSS', link: '/repo/programming/css/01 基础知识/00 简述' },
-          { text: 'JavaScript', link: '/repo/programming/javascript/01 基础部分/01 简述' },
-          { text: 'Node.js', link: '/repo/programming/nodejs/nodejs' },
+          {
+            text: '基础部分', items: [
+              { text: 'HTML', link: '/repo/programming/html/00 前置准备' },
+              { text: 'CSS', link: '/repo/programming/css/01 基础知识/00 简述' },
+              { text: 'JavaScript', link: '/repo/programming/javascript/01 基础部分/01 简述' },
+            ]
+          },
+          {
+            text: '进阶知识', items: [
+              { text: 'Node.js', link: '/repo/programming/nodejs/00 简述' },
+              { text: 'TypeScript', link: '/repo/programming/typescript/01 基础内容/01 介绍与安装' },
+              { text: 'React', link: '/repo/programming/react/00 简述' },
+              { text: 'Vue', link: '/repo/programming/vue/00 简述' },
 
-          { text: 'React', link: '/repo/programming/react/00 简述' },
-          { text: 'Vue', link: '/repo/programming/vue/00 简述' },
+            ]
+          },
+          {
+            text: '应用阶段', items: [
+              { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
+              { text: 'Electron', link: '/repo/programming/electron/00 简述' },
+              { text: 'MySQL', link: '/repo/programming/mysql/00 简述' },
+              { text: 'Docker', link: '/repo/programming/docker/docker' },
+            ]
+          }
 
-          { text: 'MySQL', link: '/repo/programming/mysql/00 简述' },
-
-          { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
-          { text: 'Electron', link: '/repo/programming/electron/00 简述' },
-          { text: 'Docker', link: '/repo/programming/docker/docker' },
 
 
         ]
@@ -72,6 +85,7 @@ export default defineConfig({
       ['/repo/programming/html', 1],
       ['/repo/programming/css', 1],
       ['/repo/programming/javascript', 1],
+      ['/repo/programming/typescript', 1],
       ['/repo/programming/nodejs', 1],
 
       ['/repo/programming/react', 1],
@@ -120,6 +134,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(markdownItFootnote)
+      md.use(markdownItTaskLists)
     }
   }
 
