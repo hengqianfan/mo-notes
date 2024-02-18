@@ -54,8 +54,9 @@ export default defineConfig({
             text: '应用阶段', items: [
               { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
               { text: 'Electron', link: '/repo/programming/electron/00 简述' },
-              { text: 'MySQL', link: '/repo/programming/mysql/00 简述' },
               { text: 'Docker', link: '/repo/programming/docker/docker' },
+              { text: 'SQL数据库', link: '/repo/programming/mysql/00 简述' },
+
             ]
           }
 

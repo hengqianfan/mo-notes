@@ -9,6 +9,7 @@ import MoSites from './mo-sites.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
+  lastUpdated: true,
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
