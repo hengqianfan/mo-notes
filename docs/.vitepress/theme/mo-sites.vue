@@ -1,35 +1,37 @@
 <template>
     <div class="all">
-        <div class="site_box" v-for="item in sitesList">
+        <!-- <div class="site_box" v-for="item in sitesList">
             <img :src="geturl(item.imgurl)" alt="" class="site_icon">
             <div class="site_info">
                 <div class="site_title">{{ item.name }}</div>
                 <div class="site_intro">{{ item.intro }}</div>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
 <script setup>
-import axios from 'axios'
-import { ref } from 'vue'
-const sitesList = ref([])
+// import axios from 'axios'
+// import { ref } from 'vue'
+// const sitesList = ref([])
 
-// 获取远端图片
-axios({
-    method: 'get',
-    url: 'http://localhost:19972/sitecollection/infoall',
-}).then(function (response) {
-    sitesList.value = response.data.rows
-});
+// // 获取远端图片
+// axios({
+//     method: 'get',
+//     url: 'http://localhost:19972/sitecollection/infoall',
+// }).then(function (response) {
+//     sitesList.value = response.data.rows
+// });
 
 
-const geturl = (momo) => {
-    return `http://localhost:19972/icon/${momo}`
-}
+// const geturl = (momo) => {
+//     return `http://localhost:19972/icon/${momo}`
+// }
 </script>
 
-<style lang="scss" scoped>
+<!-- <style lang="scss" scoped>
+
+
 .all {
     height: 90vh;
     width: 100%;
@@ -76,4 +78,5 @@ const geturl = (momo) => {
         }
     }
 }
-</style>
+
+</style> -->
