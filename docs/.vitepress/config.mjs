@@ -66,7 +66,7 @@ export default defineConfig({
       },
       { text: '待处理问题 🛠️', link: '/pages/issue' },
       {
-        text: '笔记备份 ☁️', items: [
+        text: '备份与测试 ☁️', items: [
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
           { text: 'workbench ⛔', link: 'http://localhost:19972' },

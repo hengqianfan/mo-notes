@@ -5,5 +5,5 @@ aside: false
 
 文档中 `node` 的其他内容，会的自然会、非相关从业者不会的也不必学
 
-> [参考文档 :one:](/repo/programming/nodejs/01 前置准备/00%20简述.md){target='_blank'}
+> [参考文档](/repo/programming/nodejs/01 前置准备/00%20简述.md){target='_blank'}
 
