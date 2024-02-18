@@ -3,13 +3,30 @@
 [enter](/repo/programming/nodejs/01%20前置准备/01%20安装.md){target='_blank'}
 :::
 
-## 开始创建
+
+## vite 常规创建 ❎
+
+### 创建指令
+
+::: code-group
+
+```shell [npm]
+npm create vite
+```
+```shell [pnpm]
+pnpm create vite
+```
+:::
+
+## vite 快速创建 ✅
+
+### 快速创建
 
 ```shell
 npm create vue@latest
 ```
 
-## 初始配置
+### 初始配置
 
 > 初学者默认都选 `NO` 就行。
 
