@@ -22,9 +22,19 @@ pnpm create vite
 
 ### 快速创建
 
-```shell
+
+::: code-group
+
+```shell [npm]
 npm create vue@latest
 ```
+
+```shell [pnpm]
+pnpm create vue@latest
+```
+
+:::
+
 
 ### 初始配置
 
