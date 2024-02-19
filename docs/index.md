@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "mo-notes"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "魔笔记 mo-notes"
+  text: "衡千帆的个人笔记世界"
+  tagline: 妈妈再也不用担心我的学习
   actions:
     - theme: brand
       text: vitepress
-      link: /programming/vitepress/01 可跳过的题外话.md
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      link: repo/vitepress/01 可跳过的题外话.md
+    - theme: brand
+      text: Vue3
+      link: repo/programming/vue/00 简述.md
 
 features:
-  - title: Feature A
-    details: cesh 
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 免责声明
+    details:  本站的网页是出于方便自己阅览，无意公开，因为不公开我也看不了，所以本站内容完全具有主观性，请勿当成教程。
+
 ---
 

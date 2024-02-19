@@ -40,6 +40,7 @@ pnpm create vue@latest
 
 > 初学者默认都选 `NO` 就行。
 
+
 ```shell
 # 填写项目名称  英文、数字、下划线
 ✔ Project name: … <your-project-name>
