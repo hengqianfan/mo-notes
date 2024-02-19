@@ -1,22 +1,14 @@
-## 任务
+## 当前项目
 
-::: info  <Badge type='info'>代办任务</Badge>
+::: info  <Badge type='info'>进度</Badge>
 
-- vue3
+- mo-notes <Badge type='info'>稳定构建中</Badge>
+- mo-ownSite <Badge type='danger'>未开始</Badge>
+- mo-workbench <Badge type='warning'>初步开发中</Badge>
 
-- react
+- xo-系列  ：mo-系列的完全版本
 
--  uniapp
 
-- mo-homePage  网站编辑与页面优化
-
-- mo-ownSite
-
-- xo-系列
-
-- 通过全局组件来代替img标签
-
-- 了解https://www.cloudflare.com/zh-cn/
 
 :::
 
@@ -32,5 +24,7 @@
 - nodejs 跨域
 
 - 文章加密的实现
+
+- 了解https://www.cloudflare.com/zh-cn/
 
 :::
