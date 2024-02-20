@@ -29,7 +29,7 @@ const process_filename_part = (momo) => {
 
 
 /**
- * 
+ * 这是一个创造侧边栏的函数
  * @param {目标文件夹} dir_unprocessed 
  * @param {展开的层级} folder_level 
  */
