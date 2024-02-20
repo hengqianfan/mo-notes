@@ -13,9 +13,11 @@
 :::
 
 
-## 计划
+## 计划 
 
 ::: info  <Badge type='info'>计划</Badge>
+
+- mo-workbench - 搜索框添加↑↓切换搜索引擎的功能
 
 - github action 
 

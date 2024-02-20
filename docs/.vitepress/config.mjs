@@ -71,6 +71,8 @@ export default defineConfig({
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
           { text: 'workbench ⛔', link: 'http://localhost:19972' },
           { text: 'sites ⛔', link: '/pages/网址大全' },
+          { text: 'mo-workbench ⛔', link: 'https://hengqianfan.github.io/mo-workbench/' },
+
 
 
 
