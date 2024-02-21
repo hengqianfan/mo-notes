@@ -19,6 +19,8 @@
 
 - mo-workbench - 搜索框添加↑↓切换搜索引擎的功能
 
+- mo-workbench 部署在github时，路由切换会丢失仓库名称
+
 - github action 
 
 - Algolia

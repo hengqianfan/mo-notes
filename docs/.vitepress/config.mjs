@@ -33,14 +33,16 @@ export default defineConfig({
       },
 
       {
-        text: "编程笔记 📚", items: [
+        text: "Web语言 📚", items: [
+
           {
             text: '基础部分', items: [
               { text: 'HTML', link: '/repo/programming/html/00 前置准备' },
               { text: 'CSS', link: '/repo/programming/css/01 基础知识/00 简述' },
-              { text: 'JavaScript', link: '/repo/programming/javascript/01 基础部分/01 简述' },
+              { text: 'JavaScript', link: '/repo/programming/javascript/01 入门内容/01 简述' },
             ]
           },
+
           {
             text: '进阶知识', items: [
               { text: 'Node.js', link: '/repo/programming/nodejs/01 前置准备/00 简述' },
@@ -62,6 +64,12 @@ export default defineConfig({
 
 
 
+
+        ]
+      },
+      {
+        text: 'C语言 📓', items: [
+          { text: 'C# ', link: '/repo/programming/c-sharp/00 题外话' }
         ]
       },
       { text: '待处理问题 🛠️', link: '/pages/issue' },

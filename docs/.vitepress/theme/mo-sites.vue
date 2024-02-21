@@ -1,5 +1,6 @@
 <template>
     <div class="all">
+        841
         <!-- <div class="site_box" v-for="item in sitesList">
             <img :src="geturl(item.imgurl)" alt="" class="site_icon">
             <div class="site_info">
