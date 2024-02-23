@@ -86,3 +86,9 @@ pnpm config set store-dir /path/to/.pnpm-store
 set-executionpolicy remotesigned
 
 ```
+
+## 卸载包
+
+```shell
+npm uninstall
+```
