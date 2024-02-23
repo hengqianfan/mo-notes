@@ -40,7 +40,7 @@ export default defineConfig({
             text: '基础部分', items: [
               { text: 'HTML', link: '/repo/programming/html/00 前置准备' },
               { text: 'CSS', link: '/repo/programming/css/01 基础知识/00 简述' },
-              { text: 'JavaScript', link: '/repo/programming/javascript/01 入门内容/01 简述' },
+              { text: 'JavaScript', link: '/repo/programming/javascript/00 题外话' },
             ]
           },
 
@@ -95,6 +95,9 @@ export default defineConfig({
 
     sidebar: pre_create([
       ['/repo/buildSite', 1],
+      ['/repo/computerKnowledge', 1],
+
+
 
       ['/repo/programming/html', 1],
       ['/repo/programming/css', 1],
