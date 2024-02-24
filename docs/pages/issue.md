@@ -31,6 +31,8 @@
 
 - 了解https://www.cloudflare.com/zh-cn/
 
+- 重装 [text](/articles/temp/000%20电脑重装指引.md)
+
 :::
 
 - ctrl FN  解决一直快捷键的问题
