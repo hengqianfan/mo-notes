@@ -14,6 +14,9 @@ export default defineConfig({
   // base: '/mo_notes/',
   // github 打包
   base: '/mo-notes/',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
 
 
   // srcDir: 'docs',
