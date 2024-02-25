@@ -15,7 +15,7 @@ export default defineConfig({
   // github 打包
   base: '/mo-notes/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: './favicon.ico' }]
   ],
 
 
