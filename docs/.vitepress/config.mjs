@@ -26,7 +26,7 @@ export default defineConfig({
     logo: '/icon/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '0.3.8.', link: '/repo/computerKnowledge/01 硬件知识/00 前言' },
+      { text: '0.4.5.', link: '/repo/computerKnowledge/01 硬件知识/00 前言' },
       { text: '电脑知识 💻', link: '/repo/computer/01 硬件知识/00 前言' },
       { text: '聚合指南 🧭', link: '/pages/聚合指南' },
       {
