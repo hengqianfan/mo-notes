@@ -22,17 +22,16 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes',
+    siteTitle: 'mo-notes-0.4.7',
     logo: '/icon/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '0.4.5.', link: '/repo/computerKnowledge/01 硬件知识/00 前言' },
       { text: '电脑知识 💻', link: '/repo/computer/01 硬件知识/00 前言' },
       { text: '聚合指南 🧭', link: '/pages/聚合指南' },
       {
         text: '博客建站 🌐', items: [
           { text: '全流程', link: '/repo/buildSite/00 建站知识/00 避坑指引' },
-          { text: 'vitepress', link: '/repo/vitepress/01 可跳过的题外话' }
+          { text: 'vitepress', link: '/repo/vitepress/00 简述' }
         ]
       },
 
@@ -40,15 +39,17 @@ export default defineConfig({
         text: "Web语言 📚", items: [
 
           {
-            text: '基础部分', items: [
-              { text: 'HTML', link: '/repo/programming/html/00 前置准备' },
-              { text: 'CSS', link: '/repo/programming/css/01 基础知识/00 简述' },
-              { text: 'JavaScript', link: '/repo/programming/javascript/00 题外话' },
+            text: '1️⃣ 基础部分', items: [
+              { text: 'HTML', link: '/repo/programming/html/00 简述' },
+              { text: 'CSS', link: '/repo/programming/css/00 简述' },
+              { text: 'JavaScript', link: '/repo/programming/javascript/00 简述' },
+              { text: 'network-request', link: '/repo/programming/network-request/axios/00 简述' },
+
             ]
           },
 
           {
-            text: '进阶知识', items: [
+            text: '2️⃣ 进阶知识', items: [
               { text: 'Node.js', link: '/repo/programming/nodejs/01 前置准备/00 简述' },
               { text: 'TypeScript', link: '/repo/programming/typescript/01 基础内容/01 介绍与安装' },
               { text: 'React', link: '/repo/programming/react/00 简述' },
@@ -57,7 +58,7 @@ export default defineConfig({
             ]
           },
           {
-            text: '应用阶段', items: [
+            text: '3️⃣ 应用阶段', items: [
               { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
               { text: 'Electron', link: '/repo/programming/electron/00 简述' },
               { text: 'Docker', link: '/repo/programming/docker/docker' },
@@ -73,12 +74,20 @@ export default defineConfig({
       },
       {
         text: 'C语言 📓', items: [
-          { text: 'C# ', link: '/repo/programming/c-sharp/00 题外话' }
+          { text: 'C# ', link: '/repo/programming/c-sharp/00 简述' }
         ]
       },
-      { text: '待处理问题 🛠️', link: '/pages/issue' },
       {
-        text: '备份与测试 ☁️', items: [
+        text: '爬虫 📓', items: [
+          { text: 'python', link: '/repo/programming/python/00 简述' }
+        ]
+      },
+
+
+
+      {
+        text: '其他 ☁️', items: [
+          { text: '待处理问题 🛠️', link: '/pages/issue' },
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
           { text: 'workbench ⛔', link: 'http://localhost:19972' },
@@ -122,6 +131,9 @@ export default defineConfig({
       ['/repo/vitepress', 1],
       ['/repo/github', 1],
       ['/repo/vscode', 1],
+
+
+      ['/repo/programming/python', 1],
 
 
 
