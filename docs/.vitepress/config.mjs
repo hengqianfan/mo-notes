@@ -22,12 +22,12 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.4.7',
+    siteTitle: 'mo-notes-0.4.8',
     logo: '/icon/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '电脑知识 💻', link: '/repo/computer/01 硬件知识/00 前言' },
-      { text: '聚合指南 🧭', link: '/pages/聚合指南' },
+      { text: '聚合指南 🧭', link: '/pages/allinone' },
       {
         text: '博客建站 🌐', items: [
           { text: '全流程', link: '/repo/buildSite/00 建站知识/00 避坑指引' },
@@ -43,7 +43,7 @@ export default defineConfig({
               { text: 'HTML', link: '/repo/programming/html/00 简述' },
               { text: 'CSS', link: '/repo/programming/css/00 简述' },
               { text: 'JavaScript', link: '/repo/programming/javascript/00 简述' },
-              { text: 'network-request', link: '/repo/programming/network-request/axios/00 简述' },
+              { text: 'network-request', link: '/repo/programming/network-request/01 axios/00 简述' },
 
             ]
           },
@@ -72,27 +72,29 @@ export default defineConfig({
 
         ]
       },
-      {
-        text: 'C语言 📓', items: [
-          { text: 'C# ', link: '/repo/programming/c-sharp/00 简述' }
-        ]
-      },
-      {
-        text: '爬虫 📓', items: [
-          { text: 'python', link: '/repo/programming/python/00 简述' }
-        ]
-      },
+      // {
+      //   text: 'C语言 📓', items: [
+      //     { text: 'C# ', link: '/repo/programming/c-sharp/00 简述' }
+      //   ]
+      // },
+      // {
+      //   text: '爬虫 📓', items: [
+      //     { text: 'python', link: '/repo/programming/python/00 简述' }
+      //   ]
+      // },
 
 
 
       {
         text: '其他 ☁️', items: [
+          { text: '更新日志', link: '/pages/更新历史' },
           { text: '待处理问题 🛠️', link: '/pages/issue' },
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
           { text: 'workbench ⛔', link: 'http://localhost:19972' },
           { text: 'sites ⛔', link: '/pages/网址大全' },
           { text: 'mo-workbench ⛔', link: 'https://hengqianfan.github.io/mo-workbench/' },
+          { text: 'test', link: '/pages/allinone' }
 
 
 
@@ -116,6 +118,9 @@ export default defineConfig({
       ['/repo/programming/javascript', 1],
       ['/repo/programming/typescript', 1],
       ['/repo/programming/nodejs', 1],
+      ['/repo/programming/network-request', 1],
+
+
 
       ['/repo/programming/react', 1],
       ['/repo/programming/vue', 1],
@@ -157,7 +162,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/hengqianfang' }
+      { icon: 'github', link: 'https://github.com/hengqianfan/mo-notes' }
     ],
 
     returnToTopLabel: '回到顶部'
