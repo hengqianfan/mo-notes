@@ -1,5 +1,15 @@
 export const sites_data = [
     {
+        title: '常用',
+        items: [
+            {
+                title: 'bilibili',
+                link: 'https://www.bilibili.com/',
+                icon: 'bilibili',
+            }
+        ]
+    },
+    {
         title: '网络云盘',
         items: [
             {
@@ -226,7 +236,7 @@ export const sites_data = [
             {
                 title: '腾讯视频',
                 link: 'https://v.qq.com/',
-                icon: '',
+                icon: 'txsp',
                 intro: '腾讯帝国'
             },
             {
@@ -254,7 +264,8 @@ export const sites_data = [
             },
             {
                 title: 'Emoji表情',
-                link: 'https://www.emojiall.com/zh-hans'
+                link: 'https://www.emojiall.com/zh-hans',
+                icon: 'emoji'
             },
             {
                 title: 'shields',
@@ -276,12 +287,13 @@ export const sites_data = [
             },
             {
                 title: '表情直链',
-                link: 'https://emotion.xiaokang.me/#/'
+                link: 'https://emotion.xiaokang.me/#/',
+                icon: 'publiclogo'
             },
             {
                 title: '搜图神器',
                 link: 'https://www.soutushenqi.com/home',
-                icon: 'soutushenqi',
+                icon: 'stsq',
                 intro: ''
             }
         ]
@@ -317,12 +329,13 @@ export const sites_data = [
             {
                 title: 'electron',
                 link: 'https://www.electronjs.org/zh/docs/latest/',
-                icon: '',
+                icon: 'electron',
                 intro: ''
             },
             {
                 title: 'Expo',
                 link: 'https://expo.dev/',
+                icon: 'expo',
                 intro: 'react制作app'
             },
             {
@@ -345,6 +358,7 @@ export const sites_data = [
             {
                 title: 'Markdown',
                 link: 'https://markdown.com.cn/basic-syntax/',
+                icon: 'markdown'
             }
         ]
     },
@@ -371,11 +385,14 @@ export const sites_data = [
             },
             {
                 title: '软件管家',
-                link: 'https://mp.weixin.qq.com/s/VfWKQ4WC2gsDGqdTC-wUkQ'
+                link: 'https://mp.weixin.qq.com/s/VfWKQ4WC2gsDGqdTC-wUkQ',
+                icon: 'wechat'
             },
             {
-                title: '打字软件',
-                link: 'https://gitee.com/KaiyiWing/qwerty-learner'
+                title: 'qwerty-learner',
+                link: 'https://gitee.com/KaiyiWing/qwerty-learner',
+                icon: 'qwertylearner',
+                intro: 'coder背单词的软件'
             }
         ]
     },
@@ -393,6 +410,11 @@ export const sites_data = [
                 link: 'https://steampp.net/',
                 icon: 'steampp',
                 intro: '加速器'
+            },
+            {
+                title: 'Cocos Creator',
+                link: 'https://www.cocos.com/creator',
+                icon: 'cocoscreator'
             },
             {
                 title: 'PCL2',
@@ -426,22 +448,24 @@ export const sites_data = [
             {
                 title: '零度博客',
                 link: 'https://www.freedidi.com/',
-                icon: 'ldbk',
+                icon: 'ldjs',
                 intro: '很多有用的内容'
             },
             {
                 title: '资源核',
                 link: 'https://www.onezyh.cn/',
-                icon: 'zyh',
+                icon: 'blog',
                 intro: '一般'
             },
             {
                 title: '博客01',
                 link: 'https://shellraining.github.io/',
+                icon: 'blog'
             },
             {
                 title: '系统极客',
                 link: 'https://www.sysgeek.cn/windows/',
+                icon: 'xtjk',
                 intro: '关于电脑的网站'
             }
         ]
@@ -456,7 +480,8 @@ export const sites_data = [
             },
             {
                 title: '国家开发银行',
-                link: 'https://sls.cdb.com.cn/'
+                link: 'https://sls.cdb.com.cn/',
+                icon: 'cdb'
             }
         ]
     }

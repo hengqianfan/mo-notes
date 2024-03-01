@@ -34,7 +34,8 @@ const sites = ref(sites_data)
 
 
 const gain_icon = (momo) => {
-    return `/icon/svg/${momo}.svg`
+    return `/icon/png/${momo}.png`
+    // return `/icon/svg/${momo}.svg`
 }
 
 const tosite = (momo) => {
@@ -77,6 +78,9 @@ const tosite = (momo) => {
 
         .class {
             .class_title {
+                height: 60px;
+                font-size: 30px;
+                line-height: 60px;
                 background-color: aliceblue;
             }
 
@@ -98,6 +102,9 @@ const tosite = (momo) => {
                     align-items: center;
 
                     .imgsite {
+                        background-color: aliceblue;
+                        padding: 5px;
+                        border-radius: 5px;
                         width: 60px;
                         height: 60px;
                     }

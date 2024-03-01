@@ -10,7 +10,7 @@ const root = path.resolve(__dirname, '../..')
 /**
  * 侧边栏中要忽略的文件或者目录
  */
-const ignore_list = ['index.md', '.vitepress', 'node_modules', '.idea', 'assets', 'embedded_notes']
+const ignore_list = ['index.md', '.vitepress', 'node_modules', '.idea', 'assets', 'embedded_notes', 'xrepo']
 
 // 判断是否是文件夹
 const isDir = (path) => fs.lstatSync(path).isDirectory()

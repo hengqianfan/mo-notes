@@ -1,9 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import './style.css'
+import './style/index.css'
 import moImg from './mo-img.vue'
-import moNone from './mo-none.vue'
 import MoSites from './mo-sites.vue'
 // import page1 from './mo-page-for-one.vue'
 import page1 from './components/page_one/index.vue'
@@ -21,7 +20,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('moImg', moImg)
-    app.component('moNone', moNone)
     app.component('MoSites', MoSites)
     app.component('pageOne', page1)
 
