@@ -22,7 +22,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.5.1',
+    siteTitle: 'mo-notes-0.5.2',
     logo: '/icon/png/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -87,8 +87,8 @@ export default defineConfig({
 
       {
         text: '其他 ☁️', items: [
-          { text: '更新日志', link: '/pages/更新历史' },
           { text: '待处理问题 🛠️', link: '/pages/issue' },
+          { text: '更新日志', link: '/pages/更新历史' },
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
           { text: 'workbench ⛔', link: 'http://localhost:19972' },
