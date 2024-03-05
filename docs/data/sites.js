@@ -6,7 +6,13 @@ export const sites_data = [
                 title: 'bilibili',
                 link: 'https://www.bilibili.com/',
                 icon: 'bilibili',
-            }
+            },
+            {
+                title: 'Github',
+                link: 'https://github.com/',
+                icon: 'github',
+                intro: '知名的代码托管平台',
+            },
         ]
     },
     {
@@ -359,6 +365,10 @@ export const sites_data = [
                 title: 'Markdown',
                 link: 'https://markdown.com.cn/basic-syntax/',
                 icon: 'markdown'
+            },
+            {
+                title: 'JS文档',
+                link: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript',
             }
         ]
     },
