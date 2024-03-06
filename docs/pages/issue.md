@@ -4,13 +4,15 @@
 
 - 自动生成侧边栏脚本需要优化，无法正确识别不带数字的文件夹，并将其剔除。 <Badge type='info'>普通</Badge>
 
+- mo-notes 自定义全局组件的批量导入（注册）
+
 - mo-notes 网址导航的实现  <Badge type='info'>普通</Badge>
 
 - mo-notes 外站搜索框的实现  <Badge type='info'>普通</Badge>
 
 - mo-notes 文章加密的实现
 
-- mo-notes Algolia 
+- mo-notes Algolia 的添加
 
 - mo-workbench 部署在github时，路由切换会丢失仓库名称
 

@@ -22,7 +22,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.5.5',
+    siteTitle: 'mo-notes-0.5.6',
     logo: '/icon/png/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [

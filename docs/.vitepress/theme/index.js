@@ -1,11 +1,13 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+// 引入样式
 import './style/index.css'
-import moImg from './mo-img.vue'
-import MoSites from './mo-sites.vue'
-// import page1 from './mo-page-for-one.vue'
+
+// 引入组件
+// import gloalComponemnts from './components/index.js'
 import page1 from './components/page_one/index.vue'
+
 
 
 
@@ -19,9 +21,9 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('moImg', moImg)
-    app.component('MoSites', MoSites)
     app.component('pageOne', page1)
+    // app.use(gloalComponemnts)
+    // console.log(gloalComponemnts);
+  },
 
-  }
 }
