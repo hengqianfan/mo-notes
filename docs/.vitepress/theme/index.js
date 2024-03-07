@@ -4,10 +4,8 @@ import DefaultTheme from 'vitepress/theme'
 // 引入样式
 import './style/index.css'
 
-// 引入组件
-// import gloalComponemnts from './components/index.js'
-import page1 from './components/page_one/index.vue'
-
+// 引入全局组件
+import gloalComponemnts from './components/index.js'
 
 
 
@@ -21,9 +19,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('pageOne', page1)
-    // app.use(gloalComponemnts)
-    // console.log(gloalComponemnts);
+    // 全局组件的注册
+    app.use(gloalComponemnts)
   },
 
 }

@@ -11,12 +11,18 @@
 
                 <div class="sites">
                     <div v-for="item2 in item.items" class="site">
+
                         <img :src="withBase(gain_icon(item2.icon))" class="imgsite">
-                        <div>
-                            <div @click="tosite(item2.link)">{{ item2.title }}</div>
-                            <div>{{ item2.intro }}</div>
+
+                        <div class="site">
+
+                            <div @click="tosite(item2.link)" class="site_title">{{ item2.title }}</div>
+                            <div class="site_intro">{{ item2.intro }}</div>
+
                         </div>
+
                     </div>
+                    
                 </div>
 
             </div>

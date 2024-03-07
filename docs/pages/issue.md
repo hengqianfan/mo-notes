@@ -4,7 +4,6 @@
 
 - 自动生成侧边栏脚本需要优化，无法正确识别不带数字的文件夹，并将其剔除。 <Badge type='info'>普通</Badge>
 
-- mo-notes 自定义全局组件的批量导入（注册）
 
 - mo-notes 网址导航的实现  <Badge type='info'>普通</Badge>
 
@@ -22,11 +21,14 @@
 
 - 重装 [text](/articles/temp/000%20电脑重装指引.md)
 
+- 搭建组件库
+
 :::
 
 ::: info 已解决
 
-- 1
+- mo-notes 自定义全局组件的批量导入（注册）
+
 
 :::
 

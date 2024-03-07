@@ -1,6 +1,6 @@
-import page1 from './page_one/index.vue'
+import PageOne from './page-one/index.vue'
 
-const allGlobalComponents = { page1 }
+const allGlobalComponents = { PageOne }
 
 export default {
     install(app) {
@@ -10,3 +10,4 @@ export default {
 
     }
 }
+
