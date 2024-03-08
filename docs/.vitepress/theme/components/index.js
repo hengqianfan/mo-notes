@@ -1,6 +1,6 @@
-import PageOne from './page-one/index.vue'
+import PageSites from './page-sites/index.vue'
 
-const allGlobalComponents = { PageOne }
+const allGlobalComponents = { PageSites }
 
 export default {
     install(app) {

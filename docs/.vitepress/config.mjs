@@ -22,21 +22,25 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.5.7',
+    siteTitle: 'mo-notes-0.5.8',
     logo: '/icon/png/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '电脑知识 💻', link: '/repo/computer/01 硬件知识/00 前言' },
-      { text: '聚合指南 🧭', link: '/pages/allinone' },
+      { text: '网址聚合 🚀', link: '/pages/all-sites' },
+
+      { text: '文章聚合 📰', link: '/pages/all-articles' },
+
+      { text: '笔记聚合 📚', link: '/pages/all-notes' },
+
       {
-        text: '博客建站 🌐', items: [
+        text: '建站专题 🌐', items: [
           { text: '全流程', link: '/repo/buildSite/00 建站知识/00 避坑指引' },
           { text: 'vitepress', link: '/repo/vitepress/00 简述' }
         ]
       },
 
       {
-        text: "Web语言 📚", items: [
+        text: "前端专题 📚", items: [
 
           {
             text: '1️⃣ 基础部分', items: [
@@ -86,15 +90,12 @@ export default defineConfig({
 
 
       {
-        text: '其他 ☁️', items: [
-          { text: '待处理问题 🛠️', link: '/pages/issue' },
-          { text: '更新日志', link: '/pages/更新历史' },
+        text: '其他杂项 🎰', items: [
+          { text: '更新日志 ✒', link: '/pages/history-updated' },
+          { text: '问题记录 🛠️', link: '/pages/issue' },
+          { text: '测试页面 🎨', link: '/pages/test' },
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
-          { text: 'workbench ⛔', link: 'http://localhost:19972' },
-          { text: 'sites ⛔', link: '/pages/网址大全' },
-          { text: 'mo-workbench ⛔', link: 'https://hengqianfan.github.io/mo-workbench/' },
-          { text: 'test', link: '/pages/allinone' }
 
 
 
@@ -108,6 +109,9 @@ export default defineConfig({
     ],
 
     sidebar: pre_create([
+      ['/repo/computer-init', 1],
+
+
       ['/repo/buildSite', 1],
       ['/repo/computer', 1],
 
@@ -139,6 +143,9 @@ export default defineConfig({
 
 
       ['/repo/programming/python', 1],
+
+
+
 
 
 

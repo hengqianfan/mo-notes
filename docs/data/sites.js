@@ -6,6 +6,7 @@ export const sites_data = [
                 title: 'bilibili',
                 link: 'https://www.bilibili.com/',
                 icon: 'bilibili',
+                intro:'买课与买课'
             },
             {
                 title: 'Github',

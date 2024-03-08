@@ -38,6 +38,8 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
     // 获取完整路径
     const dir_path = path.join(root, dir_unprocessed)
 
+    console.log(dir_path);
+
 
     const files_all = fs.readdirSync(dir_path)
 
