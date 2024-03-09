@@ -14,6 +14,10 @@ export const sites_data = [
                 icon: 'github',
                 intro: '知名的代码托管平台',
             },
+            {
+                title:'PP直连',
+                link:'https://www.ppzhilian.com/'
+            }
         ]
     },
     {
@@ -370,6 +374,10 @@ export const sites_data = [
             {
                 title: 'JS文档',
                 link: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript',
+            },
+            {
+                title:'docker',
+                link:'https://www.docker.com/'
             }
         ]
     },
