@@ -1,6 +1,8 @@
 import PageSites from './page-sites/index.vue'
+import MySearch from './my-search/index.vue'
+import LayoutOne from './layout-one/index.vue'
 
-const allGlobalComponents = { PageSites }
+const allGlobalComponents = { PageSites, MySearch, LayoutOne }
 
 export default {
     install(app) {
