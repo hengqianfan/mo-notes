@@ -9,6 +9,7 @@ import gloalComponemnts from './components/index.js'
 
 
 
+
 /** @type {import('vitepress').Theme} */
 export default {
   lastUpdated: true,

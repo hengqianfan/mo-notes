@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+// 插件
 import markdownItFootnote from 'markdown-it-footnote'
-import markdownItTaskLists from 'markdown-it-task-lists'
+// 自己的脚本
 import { pre_create } from './my_script/create_sidebar'
 
 
@@ -180,7 +181,6 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(markdownItFootnote)
-      md.use(markdownItTaskLists)
     }
   }
 
