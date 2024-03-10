@@ -2,4 +2,4 @@
 *.css linguist-language=css
 *.html linguist-language=vue
 
-
+# * text eol=lf

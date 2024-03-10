@@ -23,7 +23,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.6.4',
+    siteTitle: 'mo-notes-0.6.5',
     logo: '/icon/png/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -68,6 +68,7 @@ export default defineConfig({
               { text: 'Electron', link: '/repo/programming/electron/00 简述' },
               { text: 'Docker', link: '/repo/programming/docker/00 简述' },
               { text: 'SQL数据库', link: '/repo/programming/mysql/00 简述' },
+              {text:'cocos', link:'/repo/cocos-creator/00 简述'}
 
             ]
           }
@@ -146,6 +147,8 @@ export default defineConfig({
 
 
       ['/repo/programming/python', 1],
+
+      ['/repo/cocos-creator',1]
 
 
 
