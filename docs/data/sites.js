@@ -16,7 +16,9 @@ export const sites_data = [
             },
             {
                 title:'PP直连',
-                link:'https://www.ppzhilian.com/'
+                link:'https://www.ppzhilian.com/',
+                icon:'ppzl',
+                intro:'可跨端传送数据、剪切板'
             }
         ]
     },
@@ -94,7 +96,7 @@ export const sites_data = [
                 title: '稳连云',
                 link: 'https://xn--9kqq77hqun.me/#/dashboard',
                 icon: 'proxy',
-                intro: ''
+                intro: '还可以，蛮稳定'
             },
 
         ]
@@ -133,13 +135,14 @@ export const sites_data = [
             {
                 title: 'heidisql',
                 link: 'https://www.heidisql.com/',
-                icon: 'heidisql'
+                icon: 'heidisql',
+                intro:'好用的数据库管理工具'
             },
             {
                 title: 'navicat',
                 link: 'https://navicat.com.cn/download/navicat-premium',
                 icon: 'navicat',
-                intro: '数据库管理工具'
+                intro: '知名的数据库管理工具'
             },
             {
                 title: 'xshell',
@@ -276,7 +279,8 @@ export const sites_data = [
             {
                 title: 'Emoji表情',
                 link: 'https://www.emojiall.com/zh-hans',
-                icon: 'emoji'
+                icon: 'emoji',
+                intro:'emoji表情库'
             },
             {
                 title: 'shields',
@@ -299,13 +303,14 @@ export const sites_data = [
             {
                 title: '表情直链',
                 link: 'https://emotion.xiaokang.me/#/',
-                icon: 'publiclogo'
+                icon: 'publiclogo',
+                intro:'公益提供表情包直链的网站'
             },
             {
                 title: '搜图神器',
                 link: 'https://www.soutushenqi.com/home',
                 icon: 'stsq',
-                intro: ''
+                intro: '高清壁纸网站'
             }
         ]
 
@@ -341,7 +346,7 @@ export const sites_data = [
                 title: 'electron',
                 link: 'https://www.electronjs.org/zh/docs/latest/',
                 icon: 'electron',
-                intro: ''
+                intro: '桌面应用程序js开发'
             },
             {
                 title: 'Expo',
@@ -369,15 +374,20 @@ export const sites_data = [
             {
                 title: 'Markdown',
                 link: 'https://markdown.com.cn/basic-syntax/',
-                icon: 'markdown'
+                icon: 'markdown',
+                intro:'简单却实用的标记语言'
             },
             {
                 title: 'JS文档',
                 link: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript',
+                icon:'javascript',
+                intro:'提供 JS 的api查询',
             },
             {
                 title:'docker',
-                link:'https://www.docker.com/'
+                link:'https://www.docker.com/',
+                icon:'docker',
+                intro:'命令行版的虚拟机'
             }
         ]
     },
@@ -405,7 +415,8 @@ export const sites_data = [
             {
                 title: '软件管家',
                 link: 'https://mp.weixin.qq.com/s/VfWKQ4WC2gsDGqdTC-wUkQ',
-                icon: 'wechat'
+                icon: 'wechat',
+                intro:'提供各种学习版软件'
             },
             {
                 title: 'qwerty-learner',
@@ -433,7 +444,8 @@ export const sites_data = [
             {
                 title: 'Cocos Creator',
                 link: 'https://www.cocos.com/creator',
-                icon: 'cocoscreator'
+                icon: 'cocoscreator',
+                intro:'ts游戏开发'
             },
             {
                 title: 'PCL2',
@@ -496,11 +508,13 @@ export const sites_data = [
                 title: '广州图书馆',
                 link: 'https://www.gzlib.org.cn/',
                 icon: 'gzlib',
+                intro:'好大好喜欢'
             },
             {
                 title: '国家开发银行',
                 link: 'https://sls.cdb.com.cn/',
-                icon: 'cdb'
+                icon: 'cdb',
+                intro:'国家的人文关怀'
             }
         ]
     }
