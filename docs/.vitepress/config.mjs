@@ -23,7 +23,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.6.5',
+    siteTitle: 'mo-notes-0.6.6',
     logo: '/icon/png/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -55,7 +55,7 @@ export default defineConfig({
 
           {
             text: '2️⃣ 进阶知识', items: [
-              { text: 'Node.js', link: '/repo/programming/nodejs/01 前置准备/00 简述' },
+              { text: 'Node.js', link: '/repo/programming/nodejs/00 简述' },
               { text: 'TypeScript', link: '/repo/programming/typescript/01 基础内容/01 介绍与安装' },
               { text: 'React', link: '/repo/programming/react/00 简述' },
               { text: 'Vue', link: '/repo/programming/vue/00 简述' },
