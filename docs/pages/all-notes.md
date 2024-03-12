@@ -3,11 +3,13 @@ aside: left
 ---
 ## 电脑相关
 
+初始化 [enter](/repo/computer-init/01%20系统重装/02%20系统激活.md){target="_blank"}
+
 系统重装 [enter](/articles/001%20系统重装.md){target='_blank'}
 
 电脑知识 [enter](/repo/computer/01%20硬件知识/00%20前言.md){target="_blank"}
 
-初始化 [enter](/repo/computer-init/01%20系统重装/02%20系统激活.md){target="_blank"}
+
 
 
 ## 编辑工具

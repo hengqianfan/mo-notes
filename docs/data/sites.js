@@ -157,6 +157,12 @@ export const sites_data = [
                 intro: 'ssh客户机'
             },
             {
+                title:'umi-ocr',
+                link:'https://github.com/hiroi-sora/Umi-OCR/releases',
+                icon:'github',
+                intro:'截图、OCR工具'
+            },
+            {
                 title: 'hbuilderx',
                 link: 'https://www.dcloud.io/hbuilderx.html',
                 icon: 'hbuilderx',
@@ -442,10 +448,22 @@ export const sites_data = [
                 intro: '加速器'
             },
             {
+                title: 'MOD',
+                link: 'https://www.nexusmods.com/',
+                icon: 'nexusmods',
+                intro: 'mod资源平台'
+            },
+            {
                 title: 'Cocos Creator',
                 link: 'https://www.cocos.com/creator',
                 icon: 'cocoscreator',
                 intro:'ts游戏开发'
+            },
+            {
+                title:'hmcl',
+                link:'https://github.com/HMCL-dev/HMCL/releases',
+                icon:'hmcl',
+                intro:'开源的MC启动器'
             },
             {
                 title: 'PCL2',
@@ -465,12 +483,7 @@ export const sites_data = [
                 icon: 'game',
                 intro: '防失联文档'
             },
-            {
-                title: 'MOD',
-                link: 'https://www.nexusmods.com/',
-                icon: 'nexusmods',
-                intro: 'mod资源平台'
-            }
+
         ]
     },
     {
