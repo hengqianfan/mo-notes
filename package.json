@@ -1,15 +1,15 @@
 {
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.41"
+    "sass": "^1.71.1",
+    "vitepress": "1.0.0-rc.45",
+    "vue": "^3.4.21"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:dev": "vitepress dev root-docs",
+    "docs:build": "vitepress build root-docs",
+    "docs:preview": "vitepress preview root-docs"
   },
   "dependencies": {
-    "axios": "^1.6.7",
-    "markdown-it-footnote": "^4.0.0",
-    "sass": "^1.70.0"
+    "markdown-it-footnote": "^4.0.0"
   }
 }

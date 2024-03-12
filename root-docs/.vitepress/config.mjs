@@ -11,9 +11,7 @@ export default defineConfig({
   lang: 'cn',
   title: "魔笔记",
   description: "A VitePress Site",
-  // gitee 打包
-  // base: '/mo_notes/',
-  // github 打包
+  // gitee 打包请替换为/mo_notes/避免样式错误
   base: '/mo-notes/',
   head: [
     ['link', { rel: 'icon', href: './favicon.ico' }]
@@ -23,9 +21,8 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.6.9',
+    siteTitle: 'mo-notes-0.7.0',
     logo: '/icon/png/logo.png',
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
 

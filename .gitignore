@@ -1,4 +1,4 @@
 node_modules
-docs/.vitepress/dist
-docs/.vitepress/cache
-docs/history
+root-docs/.vitepress/dist
+root-docs/.vitepress/cache
+root-docs/history

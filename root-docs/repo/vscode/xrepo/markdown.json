@@ -38,8 +38,35 @@
         ],
         "description": "新窗口链接"
     },
-    "代码组_js": {
-        "prefix": "codegroup_js",
+    "代码块_命令行": {
+        "prefix": "code-block_shell",
+        "body": [
+            "```shell",
+            "$1",
+            "```"
+        ],
+    },
+    "代码块_python": {
+        "prefix": "code-block_python",
+        "body": [
+            "```python",
+            "$1",
+            "```"
+        ],
+    },
+    "代码块_js": {
+        "prefix": "code-block_javascript",
+        "body": [
+            "```js",
+            "",
+            "$1",
+            "",
+            "```"
+        ],
+        "description": "js代码块"
+    },
+	"代码组_js": {
+        "prefix": "code-group_js",
         "body": [
             "::: code-group",
             "",
@@ -50,33 +77,6 @@
             ":::"
         ],
         "description": "代码组，js"
-    },
-    "代码块_命令行": {
-        "prefix": "code_shell",
-        "body": [
-            "```shell",
-            "$1",
-            "```"
-        ],
-    },
-    "代码块_python": {
-        "prefix": "code_python",
-        "body": [
-            "```python",
-            "$1",
-            "```"
-        ],
-    },
-    "代码块_js": {
-        "prefix": "code_javascript",
-        "body": [
-            "```js",
-            "",
-            "$1",
-            "",
-            "```"
-        ],
-        "description": "js代码块"
     },
     "vitepress徽章_info": {
         "prefix": "badge_info",
