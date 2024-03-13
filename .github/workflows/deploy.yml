@@ -38,7 +38,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm # 或 pnpm / yarn
       # 安装 pnpm
       - name: Install PNPM
         run: npm i -g pnpm
