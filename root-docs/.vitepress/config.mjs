@@ -21,7 +21,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.7.0',
+    siteTitle: 'mo-notes-0.7.1',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },

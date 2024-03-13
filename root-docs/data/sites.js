@@ -413,6 +413,12 @@ export const sites_data = [
                 intro: '激活系统'
             },
             {
+                title:'MSDN',
+                link:'https://msdn.itellyou.cn/',
+                icon:'msdn',
+                intro:'系统镜像站点'
+            },
+            {
                 title: '油叉',
                 link: 'https://greasyfork.org/zh-CN',
                 icon: 'greasyfork',
