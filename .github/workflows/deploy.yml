@@ -39,6 +39,9 @@ jobs:
         with:
           node-version: 20
           cache: pnpm # 或 pnpm / yarn
+      # 安装 pnpm
+      - name: Install PNPM
+        run: npm i -g pnpm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
