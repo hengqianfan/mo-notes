@@ -415,7 +415,7 @@ export const sites_data = [
             {
                 title:'MSDN',
                 link:'https://msdn.itellyou.cn/',
-                icon:'msdn',
+                icon:'microsoft',
                 intro:'系统镜像站点'
             },
             {
@@ -476,6 +476,12 @@ export const sites_data = [
                 link: 'https://afdian.net/a/LTCat',
                 icon: 'pcl2',
                 intro: '我的世界启动器'
+            },
+            {
+                title:'MC百科',
+                link:'https://www.mcmod.cn/',
+                icon:'',
+                intro:'MC的攻略网站'
             },
             {
                 title: 'Game520',
