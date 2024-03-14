@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
 // 插件
 import markdownItFootnote from 'markdown-it-footnote'
+
 // 自己的脚本
 import { pre_create } from './my_script/create_sidebar'
+// const {pre_create} = require('fans-tools')
 
 
 
@@ -21,7 +23,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.7.2',
+    siteTitle: 'mo-notes-0.7.4',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
