@@ -349,6 +349,18 @@ export const sites_data = [
                 intro: '知名的前端框架'
             },
             {
+                title:'naive-ui',
+                link:'https://www.naiveui.com/zh-CN/light',
+                icon:'naiveui',
+                intro:'UI组件库'
+            },
+            {
+                title:'element-plus',
+                link:'https://element-plus.org/zh-CN/',
+                icon:'elementplus',
+                intro:'UI组件库'
+            },
+            {
                 title: 'electron',
                 link: 'https://www.electronjs.org/zh/docs/latest/',
                 icon: 'electron',

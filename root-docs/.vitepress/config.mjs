@@ -32,7 +32,7 @@ export default defineConfig({
 
       {
         text: '建站专题 🌐', items: [
-          { text: '全流程', link: '/repo/buildSite/00 建站知识/00 避坑指引' },
+          { text: '全流程', link: '/repo/build-site/00 简述' },
           { text: 'vitepress', link: '/repo/vitepress/00 简述' }
         ]
       },
@@ -113,7 +113,7 @@ export default defineConfig({
       ['/repo/computer-init', 1],
 
 
-      ['/repo/buildSite', 1],
+      ['/repo/build-site', 1],
       ['/repo/computer', 1],
 
 
