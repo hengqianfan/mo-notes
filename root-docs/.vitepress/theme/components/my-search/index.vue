@@ -20,7 +20,7 @@
 <script setup >
 import { ref } from 'vue'
 import { withBase, useData } from 'vitepress'
-import { engine_list } from '/data/engine'
+import { engine_list ,default_engine} from '/data/engine'
 // 选择菜单的出现与消失
 const is_show = ref(false)
 // 获取图标
@@ -29,7 +29,8 @@ const gain_icon = (momo) => {
 }
 
 
-let now_engine = ref({ name: 'bing', icon: `bing`, baseurl: 'https://bing.com/search?q=' })
+let now_engine = ref(default_engine)
+
 
 const changeEngine = (mo) => {
     is_show.value = false

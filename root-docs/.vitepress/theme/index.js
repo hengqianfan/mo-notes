@@ -7,18 +7,19 @@ import './style/index.css'
 // 引入全局组件
 import gloalComponemnts from './components/index.js'
 
-
+// import MyLayout from './MyLayout.vue'
 
 
 /** @type {import('vitepress').Theme} */
 export default {
   lastUpdated: true,
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  // Layout: () => {
+  //   return h(DefaultTheme.Layout, null, {
+  //     // https://vitepress.dev/guide/extending-default-theme#layout-slots
+  //   })
+  // },
+  // Layout:MyLayout,
   enhanceApp({ app, router, siteData }) {
     // 全局组件的注册
     app.use(gloalComponemnts)

@@ -11,3 +11,5 @@ export const engine_list = [
 
 
 ]
+
+export const default_engine = { name: 'google', icon: `google`, baseurl: 'https://www.google.com/search?q=' }
