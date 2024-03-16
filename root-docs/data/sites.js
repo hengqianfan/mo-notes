@@ -349,6 +349,12 @@ export const sites_data = [
                 intro:'web应用开发框架'
             },
             {
+                title:'ejs',
+                link:'https://ejs.co/',
+                icon:'',
+                intro:'JS的模板引擎'
+            },
+            {
                 title: 'Vue',
                 link: 'https://cn.vuejs.org/',
                 icon: 'vue',
