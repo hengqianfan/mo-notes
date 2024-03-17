@@ -2,6 +2,7 @@ export const engine_list = [
     { name: 'bing', icon: `bing`, baseurl: 'https://bing.com/search?q=' },
     { name: 'google', icon: `google`, baseurl: 'https://www.google.com/search?q=' },
     { name: 'baidu', icon: `baidu`, baseurl: 'https://baidu.com/s?wd=' },
+    { name: 'github', icon: 'github', baseurl: 'https://github.com/search?q=' },
     { name: 'csdn', icon: `csdn`, baseurl: 'https://so.csdn.net/so/search?q=' },
     { name: 'zhihu', icon: `zhihu2`, baseurl: 'https://www.zhihu.com/search?type=content&q=' },
     { name: 'bilibili', icon: `bilibili`, baseurl: 'https://search.bilibili.com/all?keyword=' },

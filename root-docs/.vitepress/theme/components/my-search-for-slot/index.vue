@@ -6,8 +6,6 @@
             <img class="search_engine" :src="withBase(gain_icon(now_engine.icon))" @click="is_show = true">
 
             <input class="search_keyword" v-model="keyword" @keyup.enter="search_start" type="text">
-
-            <img class="search_icon" :src="withBase(gain_icon('search'))" @click="search_start">
         </div>
 
         <div class="engine_select" v-if="is_show">
@@ -51,35 +49,44 @@ const search_start = () => {
 </script>
 
 <style lang="scss" scoped>
+$search_max_height: 40px;
+$search_max_width: 150px;
+
+
 .mysearch-all {
+    border: 1px solid aliceblue;
+    margin: 0 20px;
     background-color: aliceblue;
     display: flex;
     position: relative;
-    border-radius: 35px;
+    border-radius: 10px;
+
 
     .search_box {
-        height: 70px;
-        width: 1200px;
-        border-radius: 35px;
+        height: $search_max_height;
+        width: $search_max_width;
+        border-radius: 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
 
 
+
         .search_engine {
-            margin-left: 25px;
-            width: 50px;
-            height: 50px;
-            border-radius: 25px;
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
             background-color: whitesmoke;
             padding: 2px;
         }
 
         .search_keyword {
-            background-color: burlywood;
-            width: 950px;
-            height: 50px;
+            margin-right: 10px;
+            background-color: white;
+            width: 80px;
+            height: 30px;
             border-radius: 10px;
         }
 
@@ -95,21 +102,27 @@ const search_start = () => {
 
     .engine_select {
         position: absolute;
-        height: 70px;
-        width: 1200px;
+        height: $search_max_height;
+        width: $search_max_width;
         background-color: beige;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         border-radius: 35px;
 
         .searchEngineIcon {
-            margin: 0 25px;
-            width: 50px;
-            height: 50px;
-            border-radius: 25px;
+            margin: 5px 0;
+            background-color: wheat;
+            width: 30px;
+            height: 30px;
+            padding: 1px;
+            border-radius: 15px;
         }
     }
+}
+
+.mysearch-all:hover {
+    border: 1px dotted burlywood;
 }
 </style>
