@@ -23,7 +23,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.7.5',
+    siteTitle: 'mo-notes-0.7.8',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
@@ -67,7 +67,7 @@ export default defineConfig({
               { text: 'Electron', link: '/repo/programming/electron/00 简述' },
               { text: 'Docker', link: '/repo/programming/docker/00 简述' },
               { text: 'SQL数据库', link: '/repo/programming/mysql/00 简述' },
-              {text:'cocos', link:'/repo/cocos-creator/00 简述'}
+              { text: 'cocos', link: '/repo/cocos-creator/00 简述' }
 
             ]
           }
@@ -147,7 +147,7 @@ export default defineConfig({
 
       ['/repo/programming/python', 1],
 
-      ['/repo/cocos-creator',1]
+      ['/repo/cocos-creator', 1]
 
 
 

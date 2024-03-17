@@ -44,6 +44,7 @@ const search_start = () => {
         alert('请输入')
     } else {
         window.open(`${now_engine.value.baseurl}` + `${keyword.value}`, '_blank')
+        keyword.value = ''
     }
 }
 </script>
@@ -123,6 +124,16 @@ $search_max_width: 150px;
 }
 
 .mysearch-all:hover {
-    border: 1px dotted burlywood;
+    border: 1px solid rgb(36, 52, 173);
+}
+
+// 屏幕小于1000px 去除外站搜索栏
+@media (min-width: 0) and (max-width: 1000px) {
+    .mysearch-all {
+        height: 0;
+        width: 0;
+        display: none;
+        background-color: aqua;
+    }
 }
 </style>
