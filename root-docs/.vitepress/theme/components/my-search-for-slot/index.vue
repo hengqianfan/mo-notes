@@ -105,12 +105,13 @@ $search_max_width: 150px;
         position: absolute;
         height: $search_max_height;
         width: $search_max_width;
+        border-radius: 10px;
         background-color: beige;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        border-radius: 35px;
+
 
         .searchEngineIcon {
             margin: 5px 0;

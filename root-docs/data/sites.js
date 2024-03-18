@@ -6,7 +6,7 @@ export const sites_data = [
                 title: 'bilibili',
                 link: 'https://www.bilibili.com/',
                 icon: 'bilibili',
-                intro:'买课与买课'
+                intro: '买课与买课'
             },
             {
                 title: 'Github',
@@ -15,10 +15,10 @@ export const sites_data = [
                 intro: '知名的代码托管平台',
             },
             {
-                title:'PP直连',
-                link:'https://www.ppzhilian.com/',
-                icon:'ppzl',
-                intro:'可跨端传送数据、剪切板'
+                title: 'PP直连',
+                link: 'https://www.ppzhilian.com/',
+                icon: 'ppzl',
+                intro: '可跨端传送数据、剪切板'
             }
         ]
     },
@@ -136,7 +136,7 @@ export const sites_data = [
                 title: 'heidisql',
                 link: 'https://www.heidisql.com/',
                 icon: 'heidisql',
-                intro:'好用的数据库管理工具'
+                intro: '好用的数据库管理工具'
             },
             {
                 title: 'navicat',
@@ -157,10 +157,10 @@ export const sites_data = [
                 intro: 'ssh客户机'
             },
             {
-                title:'umi-ocr',
-                link:'https://github.com/hiroi-sora/Umi-OCR/releases',
-                icon:'github',
-                intro:'截图、OCR工具'
+                title: 'umi-ocr',
+                link: 'https://github.com/hiroi-sora/Umi-OCR/releases',
+                icon: 'github',
+                intro: '截图、OCR工具'
             },
             {
                 title: 'hbuilderx',
@@ -286,7 +286,7 @@ export const sites_data = [
                 title: 'Emoji表情',
                 link: 'https://www.emojiall.com/zh-hans',
                 icon: 'emoji',
-                intro:'emoji表情库'
+                intro: 'emoji表情库'
             },
             {
                 title: 'shields',
@@ -310,7 +310,7 @@ export const sites_data = [
                 title: '表情直链',
                 link: 'https://emotion.xiaokang.me/#/',
                 icon: 'publiclogo',
-                intro:'公益提供表情包直链的网站'
+                intro: '公益提供表情包直链的网站'
             },
             {
                 title: '搜图神器',
@@ -343,16 +343,16 @@ export const sites_data = [
                 intro: '网络请求'
             },
             {
-                title:'express中文网',
-                link:'https://www.expressjs.com.cn/',
-                icon:'',
-                intro:'web应用开发框架'
+                title: 'express中文网',
+                link: 'https://www.expressjs.com.cn/',
+                icon: 'express',
+                intro: 'web应用开发框架'
             },
             {
-                title:'ejs',
-                link:'https://ejs.co/',
-                icon:'',
-                intro:'JS的模板引擎'
+                title: 'ejs',
+                link: 'https://ejs.co/',
+                icon: 'ejs',
+                intro: 'JS的模板引擎'
             },
             {
                 title: 'Vue',
@@ -361,16 +361,16 @@ export const sites_data = [
                 intro: '知名的前端框架'
             },
             {
-                title:'naive-ui',
-                link:'https://www.naiveui.com/zh-CN/light',
-                icon:'naiveui',
-                intro:'UI组件库'
+                title: 'naive-ui',
+                link: 'https://www.naiveui.com/zh-CN/light',
+                icon: 'naiveui',
+                intro: 'UI组件库'
             },
             {
-                title:'element-plus',
-                link:'https://element-plus.org/zh-CN/',
-                icon:'elementplus',
-                intro:'UI组件库'
+                title: 'element-plus',
+                link: 'https://element-plus.org/zh-CN/',
+                icon: 'elementplus',
+                intro: 'UI组件库'
             },
             {
                 title: 'electron',
@@ -405,19 +405,19 @@ export const sites_data = [
                 title: 'Markdown',
                 link: 'https://markdown.com.cn/basic-syntax/',
                 icon: 'markdown',
-                intro:'简单却实用的标记语言'
+                intro: '简单却实用的标记语言'
             },
             {
                 title: 'JS文档',
                 link: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript',
-                icon:'javascript',
-                intro:'提供 JS 的api查询',
+                icon: 'javascript',
+                intro: '提供 JS 的api查询',
             },
             {
-                title:'docker',
-                link:'https://www.docker.com/',
-                icon:'docker',
-                intro:'命令行版的虚拟机'
+                title: 'docker',
+                link: 'https://www.docker.com/',
+                icon: 'docker',
+                intro: '命令行版的虚拟机'
             }
         ]
     },
@@ -431,16 +431,35 @@ export const sites_data = [
                 intro: '阿里云盘资源'
             },
             {
+                title: 'Z-Library',
+                link: 'https://z-lib.io/',
+                icon: 'z-lib',
+                intro: '电子书图书馆'
+            },
+            {
+                title: '图司机',
+                link: 'https://www.tusij.com/color',
+                icon: 'tool',
+                intro: '配色工具'
+
+            },
+            {
+                title: '零代码工具箱',
+                link: 'https://www.lingdaima.com/',
+                icon: 'tool',
+                intro: '拟态风CSS快速生成'
+            },
+            {
                 title: 'KMS',
                 link: 'https://kms.cx/',
                 icon: 'kms',
                 intro: '激活系统'
             },
             {
-                title:'MSDN',
-                link:'https://msdn.itellyou.cn/',
-                icon:'microsoft',
-                intro:'系统镜像站点'
+                title: 'MSDN',
+                link: 'https://msdn.itellyou.cn/',
+                icon: 'microsoft',
+                intro: '系统镜像站点'
             },
             {
                 title: '油叉',
@@ -452,7 +471,7 @@ export const sites_data = [
                 title: '软件管家',
                 link: 'https://mp.weixin.qq.com/s/VfWKQ4WC2gsDGqdTC-wUkQ',
                 icon: 'wechat',
-                intro:'提供各种学习版软件'
+                intro: '提供各种学习版软件'
             },
             {
                 title: 'qwerty-learner',
@@ -487,13 +506,13 @@ export const sites_data = [
                 title: 'Cocos Creator',
                 link: 'https://www.cocos.com/creator',
                 icon: 'cocoscreator',
-                intro:'ts游戏开发'
+                intro: 'ts游戏开发'
             },
             {
-                title:'hmcl',
-                link:'https://github.com/HMCL-dev/HMCL/releases',
-                icon:'hmcl',
-                intro:'开源的MC启动器'
+                title: 'hmcl',
+                link: 'https://github.com/HMCL-dev/HMCL/releases',
+                icon: 'hmcl',
+                intro: '开源的MC启动器'
             },
             {
                 title: 'PCL2',
@@ -502,10 +521,10 @@ export const sites_data = [
                 intro: '我的世界启动器'
             },
             {
-                title:'MC百科',
-                link:'https://www.mcmod.cn/',
-                icon:'',
-                intro:'MC的攻略网站'
+                title: 'MC百科',
+                link: 'https://www.mcmod.cn/',
+                icon: 'mcmod',
+                intro: 'MC的攻略网站'
             },
             {
                 title: 'Game520',
@@ -557,13 +576,13 @@ export const sites_data = [
                 title: '广州图书馆',
                 link: 'https://www.gzlib.org.cn/',
                 icon: 'gzlib',
-                intro:'好大好喜欢'
+                intro: '好大好喜欢'
             },
             {
                 title: '国家开发银行',
                 link: 'https://sls.cdb.com.cn/',
                 icon: 'cdb',
-                intro:'国家的人文关怀'
+                intro: '国家的人文关怀'
             }
         ]
     }
