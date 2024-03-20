@@ -22,7 +22,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.8.0.',
+    siteTitle: 'mo-notes-0.8.2.',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
@@ -95,6 +95,7 @@ export default defineConfig({
           { text: '问题记录 🛠️', link: '/pages/issue' },
           { text: '外站搜索 🔍', link: '/pages/search' },
           { text: '测试页面 🎨', link: '/pages/test' },
+          { text: '法律笔记', link: 'https://hengqianfan.github.io/mo-notes-for-law/' },
 
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
