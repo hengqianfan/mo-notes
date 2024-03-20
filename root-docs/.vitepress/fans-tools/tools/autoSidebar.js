@@ -128,7 +128,7 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
 
 }
 
-export const setAllSidebar = (arr) => {
+export const setAllSidebars = (arr) => {
     let obj = {}
 
     for (let i = 0; i < arr.length; i++) {

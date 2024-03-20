@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import markdownItFootnote from 'markdown-it-footnote'
 
 // 自己的脚本
-import { setAllSidebar } from './fans-tools/tools/autoSidebar'
+import { setAllSidebars } from './fans-tools/tools/autoSidebar'
 
 
 
@@ -22,7 +22,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.8.2.',
+    siteTitle: 'mo-notes-0.8.3.',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
@@ -91,7 +91,7 @@ export default defineConfig({
 
       {
         text: '其他杂项 🎰', items: [
-          { text: '更新日志 ✒', link: '/pages/history-updated' },
+          { text: '更新日志 ✒', link: '/pages/history-updated/01 建设成果' },
           { text: '问题记录 🛠️', link: '/pages/issue' },
           { text: '外站搜索 🔍', link: '/pages/search' },
           { text: '测试页面 🎨', link: '/pages/test' },
@@ -111,7 +111,7 @@ export default defineConfig({
 
     ],
 
-    sidebar: setAllSidebar([
+    sidebar: setAllSidebars([
       ['/repo/computer-init', 1],
 
 
@@ -147,7 +147,11 @@ export default defineConfig({
 
       ['/repo/programming/python', 1],
 
-      ['/repo/cocos-creator', 1]
+      ['/repo/cocos-creator', 1],
+
+      ['/pages/history-updated', 1]
+
+
 
 
 
