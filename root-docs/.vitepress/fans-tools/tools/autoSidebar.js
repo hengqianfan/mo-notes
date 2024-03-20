@@ -5,7 +5,7 @@ import fs from 'node:fs'
 /**
  * vitepress项目的根目录
  */
-const root = path.resolve(__dirname, '../..')
+const root = path.resolve(__dirname, '../../..')
 
 /**
  * 侧边栏中要忽略的文件或者目录
@@ -128,7 +128,7 @@ export const create_sidebar = (dir_unprocessed, folder_level) => {
 
 }
 
-export const pre_create = (arr) => {
+export const setAllSidebar = (arr) => {
     let obj = {}
 
     for (let i = 0; i < arr.length; i++) {

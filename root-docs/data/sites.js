@@ -15,6 +15,12 @@ export const sites_data = [
                 intro: '知名的代码托管平台',
             },
             {
+                title: 'Gmail',
+                link: 'https://mail.google.com/',
+                icon: 'gmail',
+                intro: '谷歌邮箱'
+            },
+            {
                 title: 'PP直连',
                 link: 'https://www.ppzhilian.com/',
                 icon: 'ppzl',
@@ -136,6 +142,12 @@ export const sites_data = [
                 link: 'https://zh.snipaste.com/',
                 icon: 'snipaste',
                 intro: '好用的截图神器'
+            },
+            {
+                title: 'WPS',
+                link: 'https://www.wps.cn/',
+                icon: 'wps',
+                intro: '国产办公软件'
             },
             {
                 title: 'Desktop',
@@ -513,7 +525,7 @@ export const sites_data = [
                 title: 'steam++',
                 link: 'https://steampp.net/',
                 icon: 'steampp',
-                intro: '加速器'
+                intro: '游戏加速器'
             },
             {
                 title: 'MOD',
@@ -525,7 +537,7 @@ export const sites_data = [
                 title: 'Cocos Creator',
                 link: 'https://www.cocos.com/creator',
                 icon: 'cocoscreator',
-                intro: 'ts游戏开发'
+                intro: 'ts语言开发游戏'
             },
             {
                 title: 'hmcl',
@@ -603,6 +615,11 @@ export const sites_data = [
                 icon: 'gzlib',
                 intro: '好大好喜欢'
             },
+            {
+                title: '国家法律法规数据库',
+                link: 'https://flk.npc.gov.cn/'
+            },
+
             {
                 title: '国家开发银行',
                 link: 'https://sls.cdb.com.cn/',

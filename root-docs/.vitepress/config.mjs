@@ -3,8 +3,7 @@ import { defineConfig } from 'vitepress'
 import markdownItFootnote from 'markdown-it-footnote'
 
 // 自己的脚本
-import { pre_create } from './my_script/create_sidebar'
-// const {pre_create} = require('fans-tools')
+import { setAllSidebar } from './fans-tools/tools/autoSidebar'
 
 
 
@@ -111,7 +110,7 @@ export default defineConfig({
 
     ],
 
-    sidebar: pre_create([
+    sidebar: setAllSidebar([
       ['/repo/computer-init', 1],
 
 
