@@ -117,12 +117,12 @@ export const sites_data = [
                 icon: 'qiniu',
                 intro: '云服务器商家'
             },
-            {
-                title: '稳连云',
-                link: 'https://xn--9kqq77hqun.me/#/dashboard',
-                icon: 'proxy',
-                intro: '还可以，蛮稳定'
-            },
+            // {
+            //     title: '稳连云',
+            //     link: 'https://xn--9kqq77hqun.me/#/dashboard',
+            //     icon: 'proxy',
+            //     intro: '还可以，蛮稳定'
+            // },
 
         ]
     },
@@ -532,6 +532,12 @@ export const sites_data = [
                 link: 'https://www.nexusmods.com/',
                 icon: 'nexusmods',
                 intro: 'mod资源平台'
+            },
+            {
+                title: 'wemod',
+                link: 'https://www.wemod.com/zh',
+                icon: 'wemod',
+                intro: '单机游戏修改器'
             },
             {
                 title: 'Cocos Creator',
