@@ -534,6 +534,12 @@ export const sites_data = [
                 intro: 'mod资源平台'
             },
             {
+                title: '风灵月影',
+                link: 'https://flingtrainer.com/',
+                icon: 'flyy',
+                intro: '著名的修改器，但只支持较热门的游戏'
+            },
+            {
                 title: 'wemod',
                 link: 'https://www.wemod.com/zh',
                 icon: 'wemod',

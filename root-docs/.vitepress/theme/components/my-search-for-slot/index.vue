@@ -8,7 +8,7 @@
             <input class="search_keyword" v-model="keyword" @keyup.enter="search_start" type="text">
         </div>
 
-        <div class="engine_select" v-if="is_show">
+        <div class="engine_select" v-if="is_show" @click="closeSelectMenu">
 
             <img class="searchEngineIcon" :src="withBase(gain_icon(item.icon))" v-for="item in engine_list"
                 @click="changeEngine(item)">
@@ -46,6 +46,11 @@ const search_start = () => {
         window.open(`${now_engine.value.baseurl}` + `${keyword.value}`, '_blank')
         keyword.value = ''
     }
+}
+
+// 优化点击逻辑
+const closeSelectMenu = () => {
+    is_show.value = false
 }
 </script>
 
