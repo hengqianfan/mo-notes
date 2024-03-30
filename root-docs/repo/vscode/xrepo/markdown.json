@@ -65,7 +65,7 @@
         ],
         "description": "js代码块"
     },
-	"代码组_js": {
+    "代码组_js": {
         "prefix": "code-group_js",
         "body": [
             "::: code-group",

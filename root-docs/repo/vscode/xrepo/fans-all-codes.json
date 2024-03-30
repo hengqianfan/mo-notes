@@ -1,0 +1,18 @@
+{
+    "fans-div": {
+        // "scope": "javascript,typescript",
+        "prefix": "div",
+        "body": [
+            "<div>$1</div>",
+        ],
+        "description": "一个普通的div"
+    },
+    "fans-div-class": {
+        // "scope": "javascript,typescript",
+        "prefix": "div-class",
+        "body": [
+            "<div class=\"$2\">$1</div>",
+        ],
+        "description": "一个带class的div"
+    }
+}
