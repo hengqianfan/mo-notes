@@ -1,4 +1,5 @@
 {
+    //这个文件是控制本项目在VScode软件环境内的用户配置
     "editor.tokenColorCustomizations": {
         "textMateRules": [],
     },
@@ -13,5 +14,5 @@
             "strings": "on"
         },
         "editor.acceptSuggestionOnEnter": "on"
-        }
+    }
 }

@@ -138,6 +138,12 @@ export const sites_data = [
                 intro: 'PNG-SVG'
             },
             {
+                title: 'winrar',
+                link: 'https://www.win-rar.com/',
+                icon: 'winrar',
+                intro: '解压软件'
+            },
+            {
                 title: 'VMware',
                 link: 'https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html',
                 icon: 'vmware',
@@ -543,13 +549,13 @@ export const sites_data = [
                 title: '风灵月影',
                 link: 'https://flingtrainer.com/',
                 icon: 'flyy',
-                intro: '著名的修改器，但只支持较热门的游戏'
+                intro: '游戏修改器'
             },
             {
                 title: 'wemod',
                 link: 'https://www.wemod.com/zh',
                 icon: 'wemod',
-                intro: '单机游戏修改器'
+                intro: '游戏修改器'
             },
             {
                 title: 'Cocos Creator',
