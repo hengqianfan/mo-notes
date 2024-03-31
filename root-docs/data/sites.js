@@ -138,6 +138,12 @@ export const sites_data = [
                 intro: 'PNG-SVG'
             },
             {
+                title: 'VMware',
+                link: 'https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html',
+                icon: 'vmware',
+                intro: '虚拟机'
+            },
+            {
                 title: 'snipaste',
                 link: 'https://zh.snipaste.com/',
                 icon: 'snipaste',
