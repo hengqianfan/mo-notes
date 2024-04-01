@@ -81,7 +81,6 @@
   /* 这个是自定义容器内的代码块 */
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 
-  --vp-custom-block-danger-border: 1px;
   --vp-custom-block-danger-border: red;
 
 }
@@ -96,4 +95,11 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+/* 自定义容器-warning */
+
+.custom-block.warning {
+  border: dotted;
+  border-color: wheat;
 }

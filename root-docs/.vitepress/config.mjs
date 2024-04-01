@@ -22,7 +22,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.8.6.',
+    siteTitle: 'mo-notes-0.8.7.',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
@@ -62,7 +62,7 @@ export default defineConfig({
           },
           {
             text: '3️⃣ 应用阶段', items: [
-              { text: 'Uniapp', link: '/repo/programming/uniapp/uniapp' },
+              { text: 'Uniapp', link: '/repo/programming/uniapp/00 简述' },
               { text: 'Electron', link: '/repo/programming/electron/00 简述' },
               { text: 'Docker', link: '/repo/programming/docker/00 简述' },
               { text: 'SQL数据库', link: '/repo/programming/mysql/00 简述' },
