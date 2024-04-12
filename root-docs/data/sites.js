@@ -142,6 +142,9 @@ export const sites_data = [
                 link: 'https://www.win-rar.com/',
                 icon: 'winrar',
                 intro: '解压软件'
+            }, {
+                title: '表格生成器',
+                link: 'https://www.tablesgenerator.com/'
             },
             {
                 title: 'VMware',
@@ -538,6 +541,12 @@ export const sites_data = [
                 link: 'https://steampp.net/',
                 icon: 'steampp',
                 intro: '游戏加速器'
+            },
+            {
+                title: 'epic',
+                link: 'https://store.epicgames.com/en-US/',
+                icon: 'epic',
+                intro: '知名游戏白嫖平台'
             },
             {
                 title: 'MOD',
