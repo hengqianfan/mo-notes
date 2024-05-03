@@ -22,7 +22,7 @@ export default defineConfig({
   // srcDir: 'docs',
   // lastUpdated: true,
   themeConfig: {
-    siteTitle: 'mo-notes-0.8.9.',
+    siteTitle: 'mo-notes-0.9.0.',
     logo: '/icon/png/logo.png',
     nav: [
       { text: '网址聚合 🚀', link: '/pages/all-sites' },
@@ -95,10 +95,12 @@ export default defineConfig({
           { text: '问题记录 🛠️', link: '/pages/issue' },
           { text: '外站搜索 🔍', link: '/pages/search' },
           { text: '测试页面 🎨', link: '/pages/test' },
+          { text: '其他项目与计划', link: 'pages/plans' },
           { text: '法律笔记', link: 'https://hengqianfan.github.io/mo-notes-for-law/' },
 
           { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
           { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
+          { text: '游戏世界', link: '/repo/game/00 简述' }
 
 
 
@@ -149,7 +151,11 @@ export default defineConfig({
 
       ['/repo/cocos-creator', 1],
 
-      ['/pages/history-updated', 1]
+      ['/pages/history-updated', 1],
+
+      ['/repo/game', 1]
+
+
 
 
 

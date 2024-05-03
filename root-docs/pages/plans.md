@@ -1,0 +1,3 @@
+- mo-resource
+- mo-one
+- boke
