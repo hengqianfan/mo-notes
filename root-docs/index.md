@@ -8,11 +8,15 @@ hero:
   tagline: 妈妈再也不用担心我的学习
   actions:
     - theme: brand
+      text: 当前版本 0 . 9 . 1
+      link: https://github.com/hengqianfan/mo-notes
+    - theme: brand
       text: vitepress
       link: repo/vitepress/01 可跳过的题外话.md
     - theme: brand
       text: Vue3
       link: repo/programming/vue/00 简述.md
+
 
 features:
   - title: 免责声明

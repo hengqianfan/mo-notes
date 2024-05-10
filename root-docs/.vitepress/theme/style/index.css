@@ -103,3 +103,10 @@
   border: dotted;
   border-color: wheat;
 }
+
+/* 自定义容器-info */
+
+.custom-block.info {
+  border: dashed;
+  border-color: grey;
+}
