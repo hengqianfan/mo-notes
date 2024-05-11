@@ -21,5 +21,5 @@
 - `vitepress`:  [enter](https://github.com/vuejs/vitepress){target="_blank"} 
 > 本站基于 vitepress 构建
 
-- `markdown-it-footnote`:  [enter](){target="_blank"}
+- `markdown-it-footnote`:  [enter](https://github.com/markdown-it/markdown-it-footnote){target="_blank"}
 > 为文档提供页脚功能
