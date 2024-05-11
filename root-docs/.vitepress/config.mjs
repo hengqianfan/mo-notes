@@ -92,13 +92,14 @@ export default defineConfig({
       {
         text: '其他杂项 🎰', items: [
           { text: '更新日志 ✒', link: '/pages/history-updated/01 建设计划与进度' },
-          { text: '测试页面 🎨', link: '/pages/test' },
-          { text: '其他项目与计划', link: 'pages/plans' },
-          { text: '法律笔记', link: 'https://hengqianfan.github.io/mo-notes-for-law/' },
+          { text: '版权声明 📣', link: '/pages/copyright' },
+          { text: '游戏世界 🎮', link: '/repo/game/00 简述' },
 
-          { text: 'Github', link: 'https://hengqianfan.github.io/mo-notes/' },
-          { text: 'Github-x', link: 'https://hengqianfan.github.io/mo-notes-x/' },
-          { text: '游戏世界', link: '/repo/game/00 简述' }
+          { text: '法律笔记 📓', link: 'https://hengqianfan.github.io/mo-notes-for-law/' },
+          { text: '测试页面 🎨', link: '/pages/test' },
+
+          { text: '本站地址 GP', link: 'https://hengqianfan.github.io/mo-notes/' },
+          { text: '其他项目与计划', link: 'pages/plans' },
 
 
 

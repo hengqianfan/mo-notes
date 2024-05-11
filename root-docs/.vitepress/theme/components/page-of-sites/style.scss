@@ -1,0 +1,130 @@
+$mycolor_1: #009999;
+$mycolor_2: #1D7373;
+$mycolor_3: #006363;
+$mycolor_4: #33CCCC;
+$mycolor_5: #5CCCCC;
+$mycolor_6: #384E4E;
+$mycolor_7: #2E3B3B;
+$mycolor_8: #123333;
+$mycolor_9: #83A7A7;
+$mycolor_10: #8DA7A7;
+
+.page-sites-all {
+    // margin-top: 8vh;
+    height: 92vh;
+    width: 100%;
+    background-color: $mycolor_1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .ps-nav {
+        height: 50px;
+        background-color: $mycolor_6;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .ps-nav-item {
+            height: 30px;
+            min-width: 80px;
+            // 边距加高度必须等于外部容器的高，不然会出现异常
+            margin: 10px;
+            border-radius: 8px;
+            background-color: $mycolor_1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+
+    }
+
+    .ps-content {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: $mycolor_1;
+
+        .ps-content-block {
+            min-width: 600px;
+            min-height: 300px;
+            margin: 10px;
+            background-color: $mycolor_2;
+            display: flex;
+            flex-direction: column;
+            // flex-wrap: wrap;
+
+            .ps-content-block-title {
+                margin: 10px;
+                background-color: $mycolor_3;
+                font-size: larger;
+                font-weight: 800;
+                height: 40px;
+                line-height: 40px;
+                width: 240px;
+                text-align: center;
+                color: white;
+            }
+
+            .ps-content-block-sites {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .site-card {
+                    margin: 12px;
+                    background-color: $mycolor_6;
+                    width: 340px;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .site-icon {
+                        margin-left: 10px;
+                        background-color: $mycolor_1;
+                        padding: 5px;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 5px;
+                    }
+
+                    .site-info {
+                        margin-right: 10px;
+                        // background-color: $mycolor_1;
+                        width: 220px;
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .site-title {
+                            background-color: $mycolor_10;
+                            width: 220px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                        }
+
+                        .site-intro {
+                            background-color: $mycolor_3;
+                            // 网址描述的首行缩进
+                            padding-left: 10px;
+                            color: yellow;
+                            width: 220px;
+                            height: 30px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
