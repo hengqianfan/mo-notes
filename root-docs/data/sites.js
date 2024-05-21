@@ -584,7 +584,7 @@ export const sites_data = [
                 items: [
                     {
                         title: '图司机',
-                        link: 'https://www.tusij.com/color',
+                        link: 'https://www.tusij.com/color/palette',
                         icon: 'tool',
                         intro: '配色工具'
 
@@ -680,22 +680,22 @@ export const sites_data = [
                 title: 'mod与资源',
                 items: [
                     {
-                        title: 'MOD',
+                        title: 'nexusmods',
                         link: 'https://www.nexusmods.com/',
                         icon: 'nexusmods',
-                        intro: 'mod资源平台'
+                        intro: 'n网，MOD资源平台'
                     },
                     {
                         title: 'wemod',
                         link: 'https://www.wemod.com/zh',
                         icon: 'wemod',
-                        intro: '游戏修改器'
+                        intro: '比较好用的游戏修改器'
                     },
                     {
                         title: '风灵月影',
                         link: 'https://flingtrainer.com/',
                         icon: 'flyy',
-                        intro: '游戏修改器'
+                        intro: '国内知名的游戏修改器'
                     },
                     {
                         title: 'hmcl',
@@ -716,12 +716,7 @@ export const sites_data = [
                         icon: 'curseforge',
                         intro: 'MC的模组平台'
                     },
-                    {
-                        title: 'MC百科',
-                        link: 'https://www.mcmod.cn/',
-                        icon: 'mcmod',
-                        intro: 'MC的攻略网站'
-                    },
+
                     {
                         title: 'Game520',
                         link: 'https://www.gamer520.com',
@@ -733,6 +728,17 @@ export const sites_data = [
                         link: 'https://sway.cloud.microsoft/1zyVegf0n3cHdR8o',
                         icon: 'game',
                         intro: '防失联文档'
+                    },
+                ]
+            },
+            {
+                title: '游戏攻略与资讯',
+                items: [
+                    {
+                        title: 'MC百科',
+                        link: 'https://www.mcmod.cn/',
+                        icon: 'mcmod',
+                        intro: 'MC的攻略网站'
                     },
                 ]
             },

@@ -91,7 +91,7 @@ export default defineConfig({
 
       {
         text: '其他杂项 🎰', items: [
-          { text: '更新日志 ✒', link: '/pages/history-updated/01 建设计划与进度' },
+          { text: '更新日志 ⚙', link: '/pages/history-updated/01 建设计划与进度' },
           { text: '版权声明 📣', link: '/pages/copyright' },
           { text: '游戏世界 🎮', link: '/repo/game/00 简述' },
 

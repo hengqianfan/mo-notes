@@ -37,7 +37,7 @@ const changeEngine = (mo) => {
 }
 
 // 实现搜索功能
-const keyword = ref('')
+const keyword = ref('站外搜索')
 
 const search_start = () => {
     if (keyword.value == '') {
@@ -94,6 +94,12 @@ $search_max_width: 150px;
             width: 80px;
             height: 30px;
             border-radius: 10px;
+            padding-left: 10px;
+            color: gray;
+        }
+
+        .search_keyword:hover {
+            color: black;
         }
 
         .search_icon {
