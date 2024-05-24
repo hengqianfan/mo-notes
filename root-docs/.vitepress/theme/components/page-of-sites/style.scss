@@ -11,6 +11,7 @@ $mycolor_10: #8DA7A7;
 
 $mycolor_x: white;
 $mycolor_y: aliceblue;
+$mycolor_z: black;
 
 .page-sites-all {
 
@@ -41,18 +42,27 @@ $mycolor_y: aliceblue;
             // 边距加高度必须等于外部容器的高，不然会出现异常
             margin: 10px;
             border-radius: 8px;
-            background-color: $mycolor_8;
+            background-color: $mycolor_x;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
+            color: $mycolor_8;
+            font-weight: 300;
+            // font-family: '楷体';
+            box-shadow: 2px 2px 5px #a8a8a8,
+                -2px -2px 5px #ffffff;
+        }
+
+        .ps-nav-item:hover {
+            color: $mycolor_x;
+            background-color: $mycolor_8;
         }
 
 
     }
 
     .ps-content {
-        margin-top: 30px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         background-color: $mycolor_x;
@@ -68,31 +78,34 @@ $mycolor_y: aliceblue;
             // flex-wrap: wrap;
 
             border-radius: 20px;
-            box-shadow: 5px 5px 10px #a8a8a8,
-                -5px -5px 10px #ffffff;
+            box-shadow: 4px 4px 8px #a8a8a8 inset,
+                -4px -4px 8px #ffffff inset;
 
             .ps-content-block-title {
                 margin: 20px;
-                background-color: $mycolor_8;
+                background-color: $mycolor_x;
                 font-size: larger;
                 font-weight: 800;
                 height: 50px;
                 line-height: 50px;
-                width: 210px;
+                width: 160px;
                 text-align: center;
-                color: white;
+                color: $mycolor_8;
                 border-radius: 12px;
+                box-shadow: 2px 2px 5px #a8a8a8,
+                    -2px -2px 5px #ffffff;
             }
 
             .ps-content-block-sites {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+                padding: 10px;
 
                 .site-card {
                     margin: 12px;
-                    background-color: $mycolor_y;
-                    width: 340px;
+                    background-color: $mycolor_x;
+                    width: 320px;
                     height: 120px;
                     display: flex;
                     flex-direction: row;
@@ -103,12 +116,15 @@ $mycolor_y: aliceblue;
                         -5px -5px 10px #ffffff;
 
                     .site-icon {
-                        margin-left: 10px;
-                        background-color: $mycolor_1;
+                        margin-left: 15px;
+                        background-color: $mycolor_y;
                         padding: 5px;
-                        width: 80px;
-                        height: 80px;
+                        width: 70px;
+                        height: 70px;
                         border-radius: 5px;
+                        box-shadow: 2px 2px 5px #a8a8a8 inset,
+                            -2px -2px 5px #ffffff inset;
+
                     }
 
                     .site-info {
@@ -121,21 +137,31 @@ $mycolor_y: aliceblue;
                         justify-content: space-between;
 
                         .site-title {
-                            background-color: $mycolor_10;
-                            width: 220px;
+                            background-color: $mycolor_y;
+                            width: 180px;
                             height: 30px;
                             line-height: 30px;
                             text-align: center;
+                            font-weight: 600;
+                            border-radius: 12px;
+                            box-shadow: 2px 2px 5px #a8a8a8,
+                                -2px -2px 5px #ffffff;
                         }
 
                         .site-intro {
-                            background-color: $mycolor_3;
+                            background-color: $mycolor_y;
                             // 网址描述的首行缩进
                             padding-left: 10px;
-                            color: yellow;
-                            width: 220px;
+                            color: gray;
+                            width: 180px;
                             height: 30px;
+                            font-size: small;
+                            text-align: center;
                             line-height: 30px;
+                            border-radius: 12px;
+                            box-shadow: 2px 2px 5px #a8a8a8,
+                                -2px -2px 5px #ffffff;
+
                         }
                     }
                 }

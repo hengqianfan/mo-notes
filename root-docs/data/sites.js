@@ -60,24 +60,7 @@ export const sites_data = [
                         icon: 'aliyunpan',
                         intro: '已经限速的不限速网盘'
                     },
-                    {
-                        title: 'alist',
-                        link: 'http://127.0.0.1:5244/',
-                        icon: 'alist',
-                        intro: '本地地址'
-                    },
-                    {
-                        title: 'alist',
-                        link: 'https://alist.nn.ci/zh/',
-                        icon: 'alist',
-                        intro: '官网与文档'
-                    },
-                    {
-                        title: 'alist-GitHub',
-                        link: 'https://github.com/alist-org/docs',
-                        icon: 'alist',
-                        intro: 'alist的仓库地址'
-                    },
+
 
                     {
                         title: '迅雷网盘',
@@ -102,7 +85,25 @@ export const sites_data = [
                         link: 'https://mypikpak.com/drive/all',
                         icon: 'pikpak',
                         intro: '动作主题影院'
-                    }
+                    },
+                    {
+                        title: 'Alist',
+                        link: 'http://127.0.0.1:5244/',
+                        icon: 'alist',
+                        intro: '本地地址'
+                    },
+                    {
+                        title: 'Alist',
+                        link: 'https://alist.nn.ci/zh/',
+                        icon: 'alist',
+                        intro: '官网与文档'
+                    },
+                    {
+                        title: 'Alist',
+                        link: 'https://github.com/alist-org/docs',
+                        icon: 'alist',
+                        intro: 'alist的仓库地址'
+                    },
                 ]
             },
             {
