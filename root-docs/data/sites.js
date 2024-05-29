@@ -1,3 +1,4 @@
+// 网址导航页面的网址数据
 export const sites_data = [
     {
         title: '常用',
@@ -115,6 +116,18 @@ export const sites_data = [
                         icon: 'v2',
                         intro: 'Github加速器'
                     },
+                    {
+                        title: '顶级',
+                        link: 'https://xn--mes358a9urctx.com/#/dashboard',
+                        icon: 'proxy',
+                        intro: '🚀'
+                    },
+                    {
+                        title: '稳连云',
+                        link: 'https://xn--9kqq77hqun.me/#/dashboard',
+                        icon: 'proxy',
+                        intro: '🚀'
+                    }
                 ]
             }
         ]

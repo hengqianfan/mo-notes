@@ -12,6 +12,7 @@ $mycolor_10: #8DA7A7;
 $mycolor_x: white;
 $mycolor_y: aliceblue;
 $mycolor_z: black;
+$mycolor_a: gray;
 
 .page-sites-all {
 
@@ -161,6 +162,73 @@ $mycolor_z: black;
                             border-radius: 12px;
                             box-shadow: 2px 2px 5px #a8a8a8,
                                 -2px -2px 5px #ffffff;
+
+                        }
+                    }
+                }
+
+                // 悬浮时卡片特效
+
+                .site-card:hover {
+                    // margin: 12px;
+                    background-color: $mycolor_5;
+                    width: 320px;
+                    height: 120px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .site-icon {
+                        margin-left: 15px;
+                        background-color: $mycolor_x;
+                        padding: 5px;
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 5px;
+                        box-shadow: none;
+
+
+                    }
+
+                    .site-info {
+                        margin-right: 10px;
+                        width: 200px;
+                        height: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        box-shadow: none;
+
+
+                        .site-title {
+                            background-color: $mycolor_y;
+                            width: 180px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            font-weight: 600;
+                            border-radius: 2px;
+                            box-shadow: none;
+                            color: $mycolor_7;
+
+
+                        }
+
+                        .site-intro {
+                            background-color: $mycolor_y;
+                            // 网址描述的首行缩进
+                            padding-left: 10px;
+                            color: $mycolor_10;
+                            width: 180px;
+                            height: 30px;
+                            font-size: small;
+                            text-align: center;
+                            line-height: 30px;
+                            border-radius: 2px;
+                            box-shadow: none;
+
+
 
                         }
                     }

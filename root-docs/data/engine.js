@@ -1,3 +1,4 @@
+// 顶部搜素框小组件使用的数据
 export const engine_list = [
     { name: 'bing', icon: `bing`, baseurl: 'https://bing.com/search?q=' },
     { name: 'google', icon: `google`, baseurl: 'https://www.google.com/search?q=' },
