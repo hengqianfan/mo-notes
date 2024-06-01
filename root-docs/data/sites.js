@@ -687,6 +687,12 @@ export const sites_data = [
                         icon: 'epic',
                         intro: '知名游戏白嫖平台'
                     },
+                    {
+                        title: 'humblebundle',
+                        link: 'https://zh.humblebundle.com/',
+                        icon: 'humblebundle',
+                        intro: '慈善游戏月包平台'
+                    }
                 ]
             },
 

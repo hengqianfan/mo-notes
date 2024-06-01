@@ -66,6 +66,7 @@ level_2_classlist.value = level_2_classlist.value[0].items
 // 一级菜单的点击的筛选功能
 
 const get_sites = (momo) => {
+
     now_class_1_selected.value = momo
     // 找到数据
     level_2_classlist.value = sites.value.filter((item, index) => item.title == now_class_1_selected.value)
