@@ -358,6 +358,19 @@ export const sites_data = [
                         intro: '程序员版知乎'
                     },
                 ]
+            },
+            {
+                title: '游戏社区',
+                items: [
+
+                    {
+                        title: '小黑盒',
+                        link: 'https://www.xiaoheihe.cn',
+                        icon: 'xiaoheihe',
+                        intro: "玩家社区"
+                    }
+
+                ]
             }
         ]
     },
@@ -760,6 +773,19 @@ export const sites_data = [
                         icon: 'mcmod',
                         intro: 'MC的攻略网站'
                     },
+                    {
+                        title: '小黑盒',
+                        link: 'https://www.xiaoheihe.cn/community/user/post_list',
+                        icon: 'xiaoheihe',
+                        intro: "玩家社区"
+                    },
+                    {
+                        title: '挂刀行情网',
+                        link: 'https://www.iflow.work/steam/',
+                        icon: 'web',
+                        intro: 'steam 倒余额'
+
+                    }
                 ]
             },
             {
@@ -770,6 +796,12 @@ export const sites_data = [
                         link: 'https://steampp.net/',
                         icon: 'steampp',
                         intro: '游戏加速器'
+                    },
+                    {
+                        title: 'steam++',
+                        link: 'https://github.com/BeyondDimension/SteamTools/releases',
+                        icon: 'steampp',
+                        intro: 'Github 地址'
                     },
                 ]
             },
