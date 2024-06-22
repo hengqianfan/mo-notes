@@ -34,7 +34,8 @@ export default defineConfig({
       {
         text: '建站专题 🌐', items: [
           { text: '全流程', link: '/repo/build-site/00 简述' },
-          { text: 'vitepress', link: '/repo/vitepress/00 简述' }
+          { text: 'vitepress', link: '/repo/vitepress/00 简述' },
+          { text: 'vuepress', link: '/repo/vuepress/00 简述' }
         ]
       },
 

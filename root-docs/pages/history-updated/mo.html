@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://unpkg.com/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://unpkg.com/d3@7.8.5/dist/d3.min.js"></script><script src="https://unpkg.com/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://unpkg.com/markmap-toolbar@0.17.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"","children":[{"content":"未处理：","children":[{"content":"\n<p data-lines=\"8,9\"><code>240510</code>：自动生成侧边栏脚本需要优化，无法正确识别不带数字的文件夹，并将其剔除。</p>","children":[],"payload":{"lines":"8,10"}},{"content":"\n<p data-lines=\"10,11\"><code>240510</code>：集成站外搜素引擎的需要增添下键切换、界面切换动效</p>","children":[],"payload":{"lines":"10,12"}},{"content":"\n<p data-lines=\"12,13\"><code>240511</code>: 网址导航需要适配手机端</p>","children":[],"payload":{"lines":"12,14"}},{"content":"\n<p data-lines=\"14,15\"><code>240522</code>：站外搜索框添加历史记录功能</p>","children":[],"payload":{"lines":"14,16"}},{"content":"\n<p data-lines=\"16,17\"><code>240527</code>: 网址导航-网址卡片增添悬停动画特效</p>","children":[],"payload":{"lines":"16,18"}},{"content":"\n<p data-lines=\"18,19\"><code>240527</code>: 自定义vue组件中使用链接 - 以便解决MD文档中文章导航、筛选的实现</p>","children":[],"payload":{"lines":"18,20"}},{"content":"\n<p data-lines=\"20,21\"><code>240528</code>: 网址导航适配 vitepress 的原生的黑夜主题</p>","children":[],"payload":{"lines":"20,22"}},{"content":"\n<p data-lines=\"22,23\"><code>240601</code>：网址导航刷新后，页面状态丢失</p>","children":[],"payload":{"lines":"22,24"}},{"content":"\n<p data-lines=\"24,25\"><code>240623</code>：笔记主站暂时放弃<code>vitepress</code>，改用<code>vuepresss</code>，等<code>vitepress</code>插件完善</p>","children":[],"payload":{"lines":"24,28"}}],"payload":{"lines":"0,1"}},{"content":"已解决：","children":[{"content":"240527","children":[{"content":"<code>240523</code>: 网址导航-网址卡片增添选择特效","children":[],"payload":{"lines":"38,40"}}],"payload":{"lines":"36,37"}},{"content":"240523","children":[{"content":"<code>240522</code>: 网址导航-菜单选项增添悬浮特效","children":[],"payload":{"lines":"44,46"}}],"payload":{"lines":"42,43"}}],"payload":{"lines":"28,29"}}]},{})</script>
+</body>
+</html>

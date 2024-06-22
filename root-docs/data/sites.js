@@ -784,7 +784,12 @@ export const sites_data = [
                         link: 'https://www.iflow.work/steam/',
                         icon: 'web',
                         intro: 'steam 倒余额'
-
+                    },
+                    {
+                        title: '挂刀计算器',
+                        link: 'https://www.csgola.com/calc/',
+                        icon: 'web',
+                        intro: '折扣比例计算'
                     }
                 ]
             },
