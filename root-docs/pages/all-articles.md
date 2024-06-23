@@ -24,7 +24,7 @@ outline: [2,4]
 
 - `虚拟机的使用`
 
-[enter](/articles/24052801%20VMware使用指南.md){target="_blank"}
+👉 [enter](/articles/24052801%20VMware使用指南.md){target="_blank"}
 
 
 
@@ -44,9 +44,9 @@ outline: [2,4]
 
 - `基本使用`
 
-[enter](/articles/24052701%20OBS使用指南.md){target="_blank"}
-
 ---
+
+👉 [enter](/articles/24052701%20OBS使用指南.md){target="_blank"}
 
 :::
 

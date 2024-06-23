@@ -857,6 +857,16 @@ export const sites_data = [
                 ]
             },
             {
+                title: '个人博客',
+                items: [
+                    {
+                        title: '鑫空间',
+                        link: 'https://www.zhangxinxu.com/',
+                        icon: ''
+                    }
+                ]
+            },
+            {
                 title: '资源博客',
                 items: [
 

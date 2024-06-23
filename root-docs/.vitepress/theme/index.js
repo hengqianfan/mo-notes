@@ -2,7 +2,7 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 // 引入样式
-import './style/index.css'
+import './style/index.scss'
 
 // 引入全局组件
 import gloalComponemnts from './components/index.js'

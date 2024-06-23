@@ -25,7 +25,14 @@ export default defineConfig({
     siteTitle: 'mo-notes',
     logo: '/icon/png/logo.png',
     nav: [
-      { text: '网址聚合 🚀', link: '/pages/all-sites' },
+      {
+        text: '网址聚合 🚀', items: [
+          { text: '阅览模式', link: '/pages/all-sites' },
+          // { text: '搜索模式', link: '/pages/all-sites-search' }
+          { text: '搜索模式', link: '/pages/test' }
+
+        ]
+      },
 
       { text: '文章聚合 📰', link: '/pages/all-articles' },
 
