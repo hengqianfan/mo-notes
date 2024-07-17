@@ -175,6 +175,12 @@ export const sites_data = [
             {
                 title: '日常工具',
                 items: [
+                    {
+                        title: 'geek',
+                        link: 'https://geekuninstaller.com/download',
+                        icon: 'tool',
+                        intro: '卸载工具'
+                    },
 
                     {
                         title: '格式转换',
@@ -830,6 +836,12 @@ export const sites_data = [
             {
                 title: '技术博客',
                 items: [
+                    {
+                        title: '30工具网',
+                        link: '30aitool.com',
+                        icon: 'tool',
+                        intro: '工具合集'
+                    },
 
                     {
                         title: '零度博客',
@@ -862,7 +874,8 @@ export const sites_data = [
                     {
                         title: '鑫空间',
                         link: 'https://www.zhangxinxu.com/',
-                        icon: ''
+                        icon: 'presonal',
+                        intro: '有价值的个人博客'
                     }
                 ]
             },

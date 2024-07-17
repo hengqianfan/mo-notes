@@ -52,7 +52,8 @@ export default defineConfig({
           {
             text: '1️⃣ 基础部分', items: [
               { text: 'HTML', link: '/repo/programming/html/00 简述' },
-              { text: 'CSS', link: '/repo/programming/css/00 简述' },
+              { text: 'SCSS', link: '/repo/programming/scss/00 简述' },
+
               { text: 'JavaScript', link: '/repo/programming/javascript/00 简述' },
               { text: 'network-request', link: '/repo/programming/network-request/01 axios/00 简述' },
 
@@ -130,7 +131,7 @@ export default defineConfig({
 
 
       ['/repo/programming/html', 1],
-      ['/repo/programming/css', 1],
+      ['/repo/programming/scss', 1],
       ['/repo/programming/javascript', 1],
       ['/repo/programming/typescript', 1],
       ['/repo/programming/nodejs', 1],

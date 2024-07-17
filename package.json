@@ -5,7 +5,7 @@
     "vue": "^3.4.21"
   },
   "scripts": {
-    "docs:dev": "vitepress dev root-docs",
+    "docs:dev": "vitepress dev root-docs --port 8081",
     "docs:build": "vitepress build root-docs",
     "docs:preview": "vitepress preview root-docs"
   },

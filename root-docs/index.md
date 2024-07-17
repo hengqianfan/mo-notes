@@ -8,7 +8,7 @@ hero:
   tagline: 妈妈再也不用担心我的学习
   actions:
     - theme: brand
-      text: 当前版本 0 . 9 . 5
+      text: 当前版本 0 . 9 . 6
       link: https://github.com/hengqianfan/mo-notes
     - theme: brand
       text: vitepress
@@ -21,6 +21,12 @@ hero:
 features:
   - title: 免责声明
     details:  本站的网页是出于方便自己阅览，无意公开，因为不公开我也看不了，所以本站内容完全具有主观性，请勿当成教程。
+  - title: Ones
+    details:  聚合的资源管理后台
+  - title: Boke
+    details:  个人博客项目
+  - title: Monotes
+    details: 即本站，个人笔记知识库
 
 ---
 
