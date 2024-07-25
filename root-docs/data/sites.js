@@ -475,6 +475,22 @@ export const sites_data = [
                         link: 'https://www.soutushenqi.com/home',
                         icon: 'stsq',
                         intro: '高清壁纸网站'
+                    },
+                    {
+                        title: '逗比拯救世界',
+                        link: 'https://www.dbbqb.com/',
+                        icon: 'img',
+                        intro: '表情包网站'
+                    }
+                ]
+            },
+
+            {
+                title: 'AI 绘画',
+                items: [
+                    {
+                        title: 'playground',
+                        link: 'https://playground.com/create'
                     }
                 ]
             }
