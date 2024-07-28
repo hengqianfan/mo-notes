@@ -1,5 +1,25 @@
 ## 默认配置
 
+## 固定式侧边栏
+
+> 默认的样式
+
+```js
+  ...
+    sidebar: [
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      }
+    ],
+  ...
+
+
+```
+
 ## 自动化脚本
 
 ## 自定义主题

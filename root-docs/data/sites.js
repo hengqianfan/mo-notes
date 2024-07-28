@@ -29,6 +29,12 @@ export const sites_data = [
                         link: 'https://www.ppzhilian.com/',
                         icon: 'ppzl',
                         intro: '可跨端传送数据、剪切板'
+                    },
+                    {
+                        title: 'WPS',
+                        link: 'https://www.kdocs.cn/latest',
+                        icon: 'wps',
+                        intro: '在线文档编辑'
                     }
                 ]
             }
@@ -301,6 +307,23 @@ export const sites_data = [
                         icon: 'mobaxterm',
                         intro: 'ssh客户机'
                     },
+                ]
+            },
+            {
+                title: '手机软件',
+                items: [
+                    {
+                        title: 'gkd',
+                        link: 'https://github.com/gkd-kit/gkd',
+                        icon: 'tools',
+                        intro: '跳过手机广告'
+                    },
+                    {
+                        title: 'gkd-订阅',
+                        link: "https://github.com/AIsouler/GKD_subscription",
+                        icon: 'tools',
+                        intro: 'gkd的订阅规则'
+                    }
                 ]
             }
 
