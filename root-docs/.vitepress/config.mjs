@@ -6,6 +6,14 @@ import markdownItFootnote from 'markdown-it-footnote'
 import { setAllSidebars } from './fans-tools/tools/autoSidebar'
 
 
+// 文章索引生成
+import { createArticleDatabase } from './fans-tools/tools/setArticleDatabase'
+
+createArticleDatabase()
+
+
+
+
 
 
 export default defineConfig({
@@ -36,65 +44,14 @@ export default defineConfig({
 
       { text: '文章聚合 📰', link: '/pages/all-articles' },
 
-      { text: '笔记聚合 📚', link: '/pages/all-notes' },
+      { text: '笔记聚合 📚', link: '/pages/all-notes2' },
 
       {
-        text: '建站专题 🌐', items: [
-          { text: '全流程', link: '/repo/build-site/00 简述' },
-          { text: 'vitepress', link: '/repo/vitepress/00 简述' },
-          { text: 'vuepress', link: '/repo/vuepress/00 简述' }
+        text: '专题聚合', items: [
+          { text: '前端生态圈', link: '/pages/web-design.md' },
+          { text: '建站专题', link: '/repo/build-site/00 简述' }
         ]
       },
-
-      {
-        text: "前端专题 📚", items: [
-
-          {
-            text: '1️⃣ 基础部分', items: [
-              { text: 'HTML', link: '/repo/programming/html/00 简述' },
-              { text: 'SCSS', link: '/repo/programming/scss/00 简述' },
-
-              { text: 'JavaScript', link: '/repo/programming/javascript/00 简述' },
-              { text: 'network-request', link: '/repo/programming/network-request/01 axios/00 简述' },
-
-            ]
-          },
-
-          {
-            text: '2️⃣ 进阶知识', items: [
-              { text: 'Node.js', link: '/repo/programming/nodejs/00 简述' },
-              { text: 'TypeScript', link: '/repo/programming/typescript/01 基础内容/01 介绍与安装' },
-              { text: 'React', link: '/repo/programming/react/00 简述' },
-              { text: 'Vue', link: '/repo/programming/vue/00 简述' },
-
-            ]
-          },
-          {
-            text: '3️⃣ 应用阶段', items: [
-              { text: 'Uniapp', link: '/repo/programming/uniapp/00 简述' },
-              { text: 'Electron', link: '/repo/programming/electron/00 简述' },
-              { text: 'Docker', link: '/repo/programming/docker/00 简述' },
-              { text: 'SQL数据库', link: '/repo/programming/mysql/00 简述' },
-              { text: 'cocos', link: '/repo/cocos-creator/00 简述' }
-
-            ]
-          }
-
-
-
-
-        ]
-      },
-      // {
-      //   text: 'C语言 📓', items: [
-      //     { text: 'C# ', link: '/repo/programming/c-sharp/00 简述' }
-      //   ]
-      // },
-      // {
-      //   text: '爬虫 📓', items: [
-      //     { text: 'python', link: '/repo/programming/python/00 简述' }
-      //   ]
-      // },
 
 
 
@@ -122,6 +79,7 @@ export default defineConfig({
     ],
 
     sidebar: setAllSidebars([
+
       ['/repo/computer-init', 1],
 
 
@@ -132,7 +90,7 @@ export default defineConfig({
 
       ['/repo/programming/html', 1],
       ['/repo/programming/scss', 1],
-      ['/repo/programming/javascript', 1],
+      ['/repo/programming/javascript', 0],
       ['/repo/programming/typescript', 1],
       ['/repo/programming/nodejs', 1],
       ['/repo/programming/network-request', 1],

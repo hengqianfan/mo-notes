@@ -1,9 +1,17 @@
-import PageSites from './page-of-sites/index.vue'
+
 import MySearch from './my-search/index.vue'
 import LayoutOne from './layout-one/index.vue'
 
+import PageSites from './page-of-sites/index.vue'
 
-const allGlobalComponents = { PageSites, MySearch, LayoutOne }
+import PageTopic from './page-of-topic/index.vue'
+
+import PageNotes from './page-of-notes/index.vue'
+
+import PageArticles from './page-of-articles/index.vue'
+
+
+const allGlobalComponents = { PageSites, MySearch, LayoutOne, PageTopic, PageNotes, PageArticles }
 
 export default {
     install(app) {
