@@ -35,7 +35,7 @@ export const createArticleDatabase = () => {
 
         let nowFilename = files_all[i]
 
-        let content = fs.readFileSync(`${repo_dir}\\${nowFilename}`, 'utf8')
+        let content = fs.readFileSync(`${repo_dir}/${nowFilename}`, 'utf8')
 
         let res = content.indexOf('zoinfo: ')
         let res_end = content.indexOf('zoend')
@@ -55,7 +55,7 @@ export const createArticleDatabase = () => {
 
 
 
-    const inforepo = path.resolve(root, 'data\\ArticleDatabase.json')
+    const inforepo = path.resolve(root, 'data/ArticleDatabase.json')
 
     fs.writeFileSync(inforepo, JSON.stringify(arr))
 
@@ -69,7 +69,7 @@ export const createArticleDatabase = () => {
 // 读取数据库数据
 export const readArticleDatabase = () => {
     // 数据库位置
-    let db = path.resolve(root, 'data\\ArticleDatabase.json')
+    let db = path.resolve(root, 'data/ArticleDatabase.json')
 
 
     let res = fs.readFileSync(db)
