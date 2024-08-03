@@ -1,19 +1,24 @@
 <template>
-    <div class="page-webdesign-all">
+    <div class="page-notes-all">
 
-        <div class="pw-nav">
-            <div class="pw-nav-item" v-for="item in menu_list" @click="getShowData(item)">
+        <div class="pn-nav">
+            <div class="pn-nav-item" v-for="item in menu_list" @click="getShowData(item)">
                 {{ item }}
             </div>
         </div>
 
 
-        <div class="pw-content">
-            <div class="pw-show-card" v-for="item in now_show_data">
+        <div class="pn-content">
+            <div class="pn-show-card" v-for="item in now_show_data">
 
-                <img :src="withBase(`/icon/png/${item.icon}.png`)" alt="" class="pw-show-card-icon">
+                <img :src="withBase(getIcon(item.icon))" alt="" class="pn-show-card-icon">
 
-                <a :href="withBase(`${item.link}`)">{{ item.text }}</a>
+
+                <a :href="withBase(`${item.link}`)" class="pn-show-card-title">{{ item.text }}</a>
+
+
+
+
 
             </div>
         </div>
@@ -54,19 +59,25 @@ const getShowData = (momo) => {
 // 先运行初始化一次 不然页面内容为空
 getShowData(props.momo[0].text)
 
+const getIcon = (momo) => {
+    if (momo) {
+        return `/icon/png/${item.icon}.png`
+    }
+    return `/icon/png/note.png`
+}
 
 
 </script>
 
 <style lang="scss" scoped>
-.page-webdesign-all {
+.page-notes-all {
     height: 90vh;
     width: 100%;
     background-color: white;
     display: flex;
     flex-direction: row;
 
-    .pw-nav {
+    .pn-nav {
         height: 100%;
         width: 15%;
         background-color: aliceblue;
@@ -75,7 +86,7 @@ getShowData(props.momo[0].text)
         align-items: center;
         justify-self: start;
 
-        .pw-nav-item {
+        .pn-nav-item {
             margin: 30px 0;
             background-color: white;
             height: 50px;
@@ -88,14 +99,14 @@ getShowData(props.momo[0].text)
         }
     }
 
-    .pw-content {
+    .pn-content {
         display: flex;
         flex-direction: row;
 
-        .pw-show-card {
+        .pn-show-card {
             margin: 20px;
-            width: 150px;
-            height: 200px;
+            width: 200px;
+            height: 240px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -104,11 +115,20 @@ getShowData(props.momo[0].text)
 
             background-color: skyblue;
 
-            .pw-show-card-icon {
-                width: 100px;
-                height: 100px;
+            box-shadow: 5px 5px 5px #bebebe,
+                -5px -5px 5px #ffffff;
+
+            .pn-show-card-icon {
+                width: 120px;
+                height: 120px;
                 padding: 5px;
                 background-color: antiquewhite;
+            }
+
+            .pn-show-card-title {
+                min-width: 140px;
+                background-color: aliceblue;
+                text-align: center;
             }
         }
     }

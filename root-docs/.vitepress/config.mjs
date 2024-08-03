@@ -44,11 +44,11 @@ export default defineConfig({
 
       { text: '文章聚合 📰', link: '/pages/all-articles' },
 
-      { text: '笔记聚合 📚', link: '/pages/all-notes2' },
+      { text: '笔记聚合 📚', link: '/pages/all-notes' },
 
       {
         text: '专题聚合', items: [
-          { text: '前端生态圈', link: '/pages/web-design.md' },
+          { text: '前端生态圈', link: '/pages/topic-web-design.md' },
           { text: '建站专题', link: '/repo/build-site/00 简述' }
         ]
       },
@@ -119,7 +119,9 @@ export default defineConfig({
 
       ['/pages/history-updated', 1],
 
-      ['/repo/game', 1]
+      ['/repo/game', 1],
+
+      ['/repo/component-library', 1]
 
 
 
@@ -135,10 +137,11 @@ export default defineConfig({
 
     // outline: [1, 6],
     outline: {
-      label: "目录",
+      label: "页面目录",
       // 因为要占用h1做网页副标题
       level: [2, 6],
     },
+
     // lastUpdated: true,
     search: {
       provider: 'local'

@@ -50,13 +50,17 @@ $mycolor_a: gray;
             color: $mycolor_8;
             font-weight: 300;
             // font-family: '楷体';
-            box-shadow: 2px 2px 5px #a8a8a8,
-                -2px -2px 5px #ffffff;
+            box-shadow: 2px 2px 5px #a8a8a8 inset,
+                -2px -2px 5px #ffffff inset;
         }
 
         .ps-nav-item:hover {
             color: $mycolor_x;
             background-color: $mycolor_8;
+
+            box-shadow: 2px 2px 5px #a8a8a8,
+                -2px -2px 5px #ffffff;
+
         }
 
 
@@ -113,8 +117,10 @@ $mycolor_a: gray;
                     justify-content: space-between;
                     align-items: center;
 
-                    box-shadow: 5px 5px 10px #a8a8a8,
-                        -5px -5px 10px #ffffff;
+                    border-radius: 8px;
+
+                    box-shadow: 4px 4px 3px #a8a8a8,
+                        -4px -4px 3px #ffffff;
 
                     .site-icon {
                         margin-left: 15px;

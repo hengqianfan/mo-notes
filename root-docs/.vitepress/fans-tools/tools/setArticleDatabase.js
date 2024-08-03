@@ -31,9 +31,15 @@ export const createArticleDatabase = () => {
         obj.zoid = files_all[i].split(' ')[0]
         obj.title = files_all[i].split(' ')[1]
 
-
-
+        // 获取文件名称
         let nowFilename = files_all[i]
+
+        // 添加链接
+        obj.link = `/articles/${nowFilename.split('.md')[0]}`
+
+
+
+
 
         let content = fs.readFileSync(`${repo_dir}/${nowFilename}`, 'utf8')
 

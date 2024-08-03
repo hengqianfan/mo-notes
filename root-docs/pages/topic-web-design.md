@@ -24,6 +24,7 @@ layout: page
             { text: 'TypeScript', link: '/repo/programming/typescript/01 基础内容/01 介绍与安装', icon: 'typescript' },
             { text: 'React', link: '/repo/programming/react/00 简述', icon: 'react' },
             { text: 'Vue', link: '/repo/programming/vue/00 简述', icon: 'vue' },
+            {text:'组件库',link:'/repo/component-library/00 简述',icon:'note'}
 
         ]
     },
