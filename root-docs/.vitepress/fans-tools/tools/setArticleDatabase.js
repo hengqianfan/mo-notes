@@ -46,13 +46,21 @@ export const createArticleDatabase = () => {
         let res = content.indexOf('zoinfo: ')
         let res_end = content.indexOf('zoend')
 
-        let info = content.slice(res + 8, res_end - 1)
+        if (res == -1) {
+            // 没有索引信息，返回基本的【zoid】和【title】
+            arr.push(obj)
+        } else {
+            // 提取索引信息
+            let info = content.slice(res + 8, res_end - 1)
+
+            // 将字符串转化为对象
+            let obj2 = eval('(' + info + ')');
 
 
-        let obj2 = eval('(' + info + ')');
+            arr.push(Object.assign(obj, obj2))
+        }
 
 
-        arr.push(Object.assign(obj, obj2))
 
 
 

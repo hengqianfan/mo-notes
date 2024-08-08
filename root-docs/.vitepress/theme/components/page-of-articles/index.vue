@@ -4,7 +4,10 @@
         <div class="pa-navbar">
             <div class="pa-navbar-search">search</div>
             <div class="pa-navbar-tabbar">
-                <div class="pa-navbar-tabbar-tab">12</div>
+                <div class="pa-navbar-tabbar-tab" v-for="item in all_tags">
+                    {{ item }}
+
+                </div>
             </div>
         </div>
 
@@ -29,29 +32,39 @@
 <script setup>
 import { ref } from 'vue'
 import { withBase, useData } from 'vitepress'
-//  获取文章索引信息
+
+//  获取文章索引信息 （该文件是通过脚本生成的）
 import data from '../../../../data/ArticleDatabase.json'
 
-let alltag = ref([])
+// 定义 tag 数组 
+let all_tags = ref([])
 
-const getALLTag = () => {
+// 从数据中提取所有的 tag 放入 tag 数组中
+const getALLTags = () => {
+    // 临时存放数据的数组
     let temp_arr = []
-
+    // 遍历原始数据，把所有 tag 添加到 临时数组中
     for (let i = 0; i < data.length; i++) {
-        let now_tagarr = data[i].tag
-        temp_arr.push(...now_tagarr)
 
+        // 先判断是否存在 信息中是否存在 tag ⭐
+
+        if (data[i].tag) {
+            // 获取当前文章的 tag 数组
+            let now_tagarr = data[i].tag
+            // 解构数组后，再添加到临时数组中
+            temp_arr.push(...now_tagarr)
+        }
 
     }
-    // 数组去重
+    // 临时数组去重（因为文章的 tag 重复率高）
     temp_arr = Array.from(new Set(temp_arr))
 
-    // 赋值给外部
-    alltag.value = temp_arr
+    // 最后，把临时数组的数据赋值给外部数组
+    all_tags.value = temp_arr
 
 }
-
-getALLTag()
+// 初始化 tag 数据
+getALLTags()
 
 const getIcon = (momo) => {
     if (momo) {
@@ -97,6 +110,17 @@ const toPage = (momo) => {
         .pa-navbar-tabbar {
             background-color: antiquewhite;
             width: 85%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .pa-navbar-tabbar-tab {
+                background-color: #f7f5f5;
+                width: 120px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+            }
         }
 
     }
@@ -142,14 +166,18 @@ const toPage = (momo) => {
 
                 font-size: 18px;
                 font-weight: 800;
+                font-family: "剑豪体";
             }
 
             .pa-article-card-zoid {
-                margin-top: 10px;
+                margin-top: 15px;
                 padding: 0 5px;
                 background-color: white;
-                box-shadow: 5px 5px 5px #bebebe inset,
-                    -5px -5px 5px #ffffff inset;
+                box-shadow: 2px 2px 2px #bebebe,
+                    -5px -5px 5px #f7f5f5;
+
+                color: gray;
+
             }
         }
 

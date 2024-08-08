@@ -150,7 +150,7 @@ $mycolor_a: gray;
                             line-height: 30px;
                             text-align: center;
                             font-weight: 600;
-                            border-radius: 12px;
+                            border-radius: 10px;
                             box-shadow: 2px 2px 5px #a8a8a8,
                                 -2px -2px 5px #ffffff;
                         }
@@ -165,7 +165,7 @@ $mycolor_a: gray;
                             font-size: small;
                             text-align: center;
                             line-height: 30px;
-                            border-radius: 12px;
+                            border-radius: 10px;
                             box-shadow: 2px 2px 5px #a8a8a8,
                                 -2px -2px 5px #ffffff;
 
@@ -204,6 +204,7 @@ $mycolor_a: gray;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
+
                         box-shadow: none;
 
 
@@ -214,9 +215,11 @@ $mycolor_a: gray;
                             line-height: 30px;
                             text-align: center;
                             font-weight: 600;
-                            border-radius: 2px;
+                            border-radius: 10px;
                             box-shadow: none;
                             color: $mycolor_7;
+                            box-shadow: 2px 2px 5px #a8a8a8 inset,
+                                -2px -2px 5px #ffffff inset;
 
 
                         }
@@ -231,8 +234,9 @@ $mycolor_a: gray;
                             font-size: small;
                             text-align: center;
                             line-height: 30px;
-                            border-radius: 2px;
-                            box-shadow: none;
+                            border-radius: 10px;
+                            box-shadow: 2px 2px 5px #a8a8a8 inset,
+                                -2px -2px 5px #ffffff inset;
 
 
 

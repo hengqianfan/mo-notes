@@ -105,30 +105,37 @@ const getIcon = (momo) => {
 
         .pn-show-card {
             margin: 20px;
-            width: 200px;
-            height: 240px;
+            width: 220px;
+            height: 280px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
 
 
-            background-color: skyblue;
+            background-color: gray;
 
             box-shadow: 5px 5px 5px #bebebe,
                 -5px -5px 5px #ffffff;
 
             .pn-show-card-icon {
-                width: 120px;
-                height: 120px;
+                width: 150px;
+                height: 150px;
                 padding: 5px;
                 background-color: antiquewhite;
             }
 
             .pn-show-card-title {
                 min-width: 140px;
-                background-color: aliceblue;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 10px;
+                background-color: black;
                 text-align: center;
+
+                font-family: '金刚体';
+                color: white;
+
             }
         }
     }
